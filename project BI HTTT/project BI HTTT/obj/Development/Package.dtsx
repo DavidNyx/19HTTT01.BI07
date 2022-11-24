@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="8"
-  DTS:VersionGUID="{413921A1-E02F-4130-B8B5-5C7C8C4A61A0}">
+  DTS:VersionBuild="12"
+  DTS:VersionGUID="{72AC06F6-2105-48CF-8E55-1B4794EA48C7}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -25,28 +25,23 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=biproject.database.windows.net;User ID=dw;Initial Catalog=DDS;Provider=SQLNCLI11.1;Application Name=SSIS-Package-{95E52228-F56E-41A8-9759-F7B8D20DE54A}biproject.database.windows.net.DDS.dw;Auto Translate=False;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwdZ/sPT970Ga1xA6QMGMwQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABrC7iqdlG4ret0MTOHORnhjxEZzv9ma7Je27RGJlErJAAAAAAOgAAAAAIAACAAAABRuUMxmlLC04E7nUu4OPySUNgrJ3VZUfdHhUYVFiBHqiAAAAC5TmPhCBEx6r9cJE/6BNXVkfuMHA5m52OsOg5Vv8LRVkAAAAA7vkRsAINoWds4JrVT49iUE8IdSz45xkkfn7m/LGw8QDoNP0LHlydBT2sSvK0kQGv1IOBPK+XL7EAAxAF/SSr3</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="Data Source=biproject.database.windows.net;User ID=dw;Initial Catalog=DDS;Provider=SQLNCLI11.1;Application Name=SSIS-Package-{95E52228-F56E-41A8-9759-F7B8D20DE54A}biproject.database.windows.net.DDS.dw;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[biproject.database.windows.net.stage.dw]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{B47631E4-A78B-4BB8-9382-011FDD45148E}"
+      DTS:DTSID="{1A429ED0-5C2E-4715-8566-D74EA6CA9143}"
       DTS:ObjectName="biproject.database.windows.net.stage.dw">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=biproject.database.windows.net;User ID=dw;Initial Catalog=stage;Provider=SQLNCLI11.1;Application Name=SSIS-Package-{B47631E4-A78B-4BB8-9382-011FDD45148E}biproject.database.windows.net.stage.dw;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=biproject.database.windows.net;User ID=dw;Initial Catalog=stage;Provider=SQLNCLI11.1;Persist Security Info=True;Application Name=SSIS-Package-{1A429ED0-5C2E-4715-8566-D74EA6CA9143}biproject.database.windows.net.stage.dw;Auto Translate=False;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwdZ/sPT970Ga1xA6QMGMwQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADkkeStH9tnXum0giUabLY3+DBdUD3TT2kaMa1BAcGwBwAAAAAOgAAAAAIAACAAAACEKyjS7dytixJMpZOOrgWYTXwFh155XOeszvDHr4qfdyAAAACEHtHebs9vH6j5gbNk1cWSn0pXW0ieF7LAXh6F3X+P+0AAAAARBF66casWHFpC6f593JAyc/0Af8tENg3QD6T8csIMAa82L0Vedpuwwm/hk/U+UxibsMoAryfv3Ffzd9zwKhOD</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAjWIDzVzJz0mZorFlrmecMwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADOgGXY5QY9P7doFrCp3n4N8QM2TWa8Y7ZAHyd8no63KgAAAAAOgAAAAAIAACAAAADTvf2wE4EWBqux8SLuVmrvlDXmpvbT/V1GqLOP8Si8KiAAAAC3RDxXCIMfv098eRZxouZB3zQ5oC4Y5FhBUuGcHOtrwUAAAACSnTeW8LLzq3GXBM09CLvhxfg0l/dNXsJPQ5egKsZQkem3G3oLpWIfJ5XS9WajVqplMPskmCTKpNiwMVMeltbQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -2006,8 +2001,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[biproject.database.windows.net.stage.dw]"
-                  connectionManagerRefId="Package.ConnectionManagers[biproject.database.windows.net.stage.dw]"
+                  connectionManagerID="{B47631E4-A78B-4BB8-9382-011FDD45148E}:invalid"
+                  connectionManagerRefId="{B47631E4-A78B-4BB8-9382-011FDD45148E}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -3500,27 +3495,27 @@
           Id="Package\Data Flow Task 2"
           TopLeft="511.99999829701,109.529411603835" />
         <NodeLayout
-          Size="204.8,41.6"
+          Size="204,41.6"
           Id="Package\truncate vaccines_by_ages"
-          TopLeft="30.7142862373468,37.470588760805" />
+          TopLeft="74.8809511489879,157.937256384855" />
         <NodeLayout
           Size="158.4,41.6"
           Id="Package\vaccines_by_age"
-          TopLeft="59.9999947207315,130.588234811506" />
+          TopLeft="104.166659632373,251.054902435556" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="135.957140479039,79.070588760805">
+          TopLeft="180.12380539068,199.537256384855">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,51.5176460507006"
+              EndConnector="0,51.517646050701"
               Start="0,0"
-              End="0,44.0176460507006">
+              End="0,44.017646050701">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,44.0176460507006" />
+                    End="0,44.017646050701" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3639,7 +3634,7 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="139,42"
+          Size="139.2,41.6"
           Id="Package\Data Flow Task 1\Excel Source"
           TopLeft="309,52" />
       </GraphLayout>
@@ -3682,7 +3677,7 @@
         <NodeLayout
           Size="169.6,41.6"
           Id="Package\vaccines_by_age\OLE DB Destination"
-          TopLeft="107.142858967489,192.705885055568" />
+          TopLeft="107.142858967489,197.03921842334" />
         <NodeLayout
           Size="150.4,41.6"
           Id="Package\vaccines_by_age\Flat File Source"
@@ -3719,14 +3714,14 @@
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,47.8705894900851"
+              EndConnector="0,52.2039228578566"
               Start="0,0"
-              End="0,40.3705894900851">
+              End="0,44.7039228578566">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,40.3705894900851" />
+                    End="0,44.7039228578566" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
