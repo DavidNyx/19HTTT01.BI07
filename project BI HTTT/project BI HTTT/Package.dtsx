@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="12"
-  DTS:VersionGUID="{72AC06F6-2105-48CF-8E55-1B4794EA48C7}">
+  DTS:VersionBuild="13"
+  DTS:VersionGUID="{CD10647A-C3CC-4D0C-AE52-640A260F2141}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -37,12 +37,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=biproject.database.windows.net;User ID=dw;Initial Catalog=stage;Provider=SQLNCLI11.1;Persist Security Info=True;Application Name=SSIS-Package-{1A429ED0-5C2E-4715-8566-D74EA6CA9143}biproject.database.windows.net.stage.dw;Auto Translate=False;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAjWIDzVzJz0mZorFlrmecMwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABnu6TvRB2FycG6BfeQN+k+rEHd3d7GUA4P0+XVAtZGngAAAAAOgAAAAAIAACAAAABLnyyBMKvNa23uhpUP4i4Zo2/s56WUsct4D3B8t5ZDTSAAAABrB9tl8Ojt3+C6EpM7mQFx5TzpCEB0FcYMJEY2rBMp40AAAACg031WkzAgAqwTSPhHub+Aw8qYMLiMFF3MsxBDDLlft5UXwabn1ZJpkBRFAuKA7bg1ky6IL+iexqeUY7ifgYq8</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="Data Source=biproject.database.windows.net;User ID=dw;Initial Catalog=stage;Provider=SQLNCLI11.1;Persist Security Info=True;Application Name=SSIS-Package-{1A429ED0-5C2E-4715-8566-D74EA6CA9143}biproject.database.windows.net.stage.dw;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -2829,6 +2824,7 @@
       DTS:refId="Package\truncate vaccines_by_ages"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{CB158CDE-6E3C-4E35-9D7F-A595947FA9C9}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -2845,6 +2841,7 @@
       DTS:refId="Package\vaccines_by_age"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{E3A67DD7-C7A3-4330-B592-1B5E72A6FB6E}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
