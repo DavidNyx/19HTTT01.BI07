@@ -10,8 +10,20 @@
         <WinAuthDomain />
         <StartObjectID>Source-Stage.dtsx</StartObjectID>
         <Run64BitRuntime>false</Run64BitRuntime>
-        <UserIDs />
-        <UserPasswords />
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>{A91C2C37-F099-499D-A86C-09729AAFE40B}</Id>
+            <Name>{A91C2C37-F099-499D-A86C-09729AAFE40B}</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAk35cOiVodEGoR+amNHIs5QAAAABOAAAAewBBADkAMQBDADIAQwAzADcALQBGADAAOQA5AC0ANAA5ADkARAAtAEEAOAA2AEMALQAwADkANwAyADkAQQBBAEYARQA0ADAAQgB9AAAAEGYAAAABAAAgAAAA5iGXEfWoZd5f/c8YbDedWmpOGP/NsYjH6rU4psR1SPcAAAAADoAAAAACAAAgAAAAqz3CoqWY1wIQso5bBnXZwL+Gxn0Y6jRYEYAYsN/cP6wQAAAAgMoCUl4h2YXD7JW6CgkNNUAAAAAw/qmri06FWIO1uMO9F0k+WHuxLvVz+DNVYNvrryP6gg8HOxSaPoC9o4MX4qkkZ5we6JkuhRLMqfNwTrqDjYCA</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>{A91C2C37-F099-499D-A86C-09729AAFE40B}</Id>
+            <Name>{A91C2C37-F099-499D-A86C-09729AAFE40B}</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAk35cOiVodEGoR+amNHIs5QAAAABOAAAAewBBADkAMQBDADIAQwAzADcALQBGADAAOQA5AC0ANAA5ADkARAAtAEEAOAA2AEMALQAwADkANwAyADkAQQBBAEYARQA0ADAAQgB9AAAAEGYAAAABAAAgAAAAsFF+nSwmms2ihYQxvMf/GedXUwh4j/XCyspYB5ZIKNsAAAAADoAAAAACAAAgAAAAsKoFBfsIr1zUEeprD6yORcd/e3yNzOkeEe1sFhST2MYgAAAA83co1wXcVCrN+hiKHoCW451yEck2dakdaaeFQJLgbTBAAAAAGXHiMec1h6vXYmnvyXrJxiPcTVvvO3JFWhmgt2ZAu8RU+L+PuxpUvW3xhobiUs9lust5C00gqjr9FTDL9MZgGw==</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
         <OfflineMode>false</OfflineMode>
         <ProgressReporting>true</ProgressReporting>
         <ParameterConfigurationSensitiveValues>
