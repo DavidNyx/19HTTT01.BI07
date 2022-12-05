@@ -2,18 +2,23 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>project BI HTTT</Name>
-    <LastWriteTime>2022-11-30T16:29:47.2087279Z</LastWriteTime>
+    <LastWriteTime>2022-12-04T08:55:32.7540091Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>Package.dtsx</Name>
-      <LastWriteTime>2022-11-29T15:20:13.6912421Z</LastWriteTime>
+      <LastWriteTime>2022-12-01T11:31:56.6100051Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Source-Stage.dtsx</Name>
-      <LastWriteTime>2022-11-30T16:29:47.1768142Z</LastWriteTime>
+      <LastWriteTime>2022-12-01T11:31:56.6129694Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Stage-NDS.dtsx</Name>
+      <LastWriteTime>2022-12-04T15:11:39.7002387Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
