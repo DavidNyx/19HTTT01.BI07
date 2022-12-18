@@ -12,8 +12,8 @@
   DTS:MaxErrorCount="5"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="80"
-  DTS:VersionGUID="{9BA1BCFC-AAE6-4E0C-B20F-412EE96B0876}">
+  DTS:VersionBuild="92"
+  DTS:VersionGUID="{FFD0C871-5672-413A-802D-4AAC1ACBF0C8}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -54,7 +54,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAk35cOiVodEGoR+amNHIs5QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB9AcPrmuD+OcwGZ/FJ7xORq/jmy+fCN/whk130awDoSAAAAAAOgAAAAAIAACAAAADHfIkcGHDOZ62VCrqTe0KErEgS+9nzolGdzzNb72ijSSAAAADSqQzmOBddD2J2c4CAvyWwfFdb5jqxDpuW/NYviy+w9EAAAAAfE07sGM9+YQuaBHey7g3CYPVuGzjlSuP7ezwUQqsL2Q/qhLEVtyVn4/d6Vl41ySYistSIqKZ48EjA0KlRVada</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAk35cOiVodEGoR+amNHIs5QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACEzzMUzFTOcvsgW/bGpNksyU4Iw939vmNlVHxwri4QjgAAAAAOgAAAAAIAACAAAAD+PXzkiYUnC4y01tYi9Cwk6PaB1tOiaTxXCbAnnCIhqyAAAAA769yFSZt+N4BuoBeXdbO/SQCXYA1uUBQWYojsmXRm00AAAAC0L38xKgT+DR3TQ7KvuSD5ifn4Ug9WjkNKTvjGiYJvzpgIPqS5/EW3eUro1mDkbiJEOpTwowv94ZKt1r4yNCUt</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -71,7 +71,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAk35cOiVodEGoR+amNHIs5QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABohF5QmQgHG/pUckHwTjBpIjTZDUUUcAm1w5bRnKUnfgAAAAAOgAAAAAIAACAAAACLx7y4mp3bgkYUGhwsknZX2s+YCOPRGurBvek0A7VdLSAAAAC2h/u+RUwn1/Q6ipmS+qWXPJlRoMzMXFcRx/P/9mkI1EAAAABeVdxd6S56o1WnEP80CXPmM7oSXV/XcG77EUeeu0zYQAZIxn0IWsY3vEGRSD6THc6wEFOYExfcxFi98SoHZMrO</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAk35cOiVodEGoR+amNHIs5QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD4KjMX9Xy+EWRo4x4Xl8znk0AABsyPYnIYYkbKYOFAEAAAAAAOgAAAAAIAACAAAAAwgq2k5l9ItlxRaCig4a2G1ieEU+GALKS9MXB6MPPGTyAAAADX4hKwqnDIsvj3LA2ZOa3CQRDzkHBeCG5M720oPCLo2UAAAABYF0EZQU8O9NsDdNJGt6Fb4pkOWK0L1HyrXjzc2acRG/xKo2B+HjDmVXzBlDkASPGuQXCm7VicevAUZGNprRxq</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -642,11 +642,11 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=biproject.database.windows.net;User ID=dw;Initial Catalog=metadata;Provider=SQLNCLI11.1;Application Name=SSIS-Package1-{E561E4C3-E15A-4689-AE6E-65299DFBFAA7}biproject.database.windows.net.metadata.dw 2;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=bi-school.database.windows.net;User ID=dw;Initial Catalog=metadata;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package1-{E561E4C3-E15A-4689-AE6E-65299DFBFAA7}biproject.database.windows.net.metadata.dw 2;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAk35cOiVodEGoR+amNHIs5QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACSQxYrmo8gVY9WmLmc4u0RJoNTWgtgDviPSSwH0BkzpQAAAAAOgAAAAAIAACAAAACuw73lZLlA/7zMJMdMME+/b5fw/rT/D92mwT3Rb7IT+CAAAACyLL9q6cqfFfpj9Hmb02PkxqFDh0lI+HRl/KsVKFTxwkAAAABM3PXwLOmXGgoluVcpmRcA+ZfDKY6VZdmTRHtCnV0nmobFXFhiACWrBq2Kidn+eAzPFIj/E+OmZux43Wpol9gI</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAk35cOiVodEGoR+amNHIs5QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADRA63455pKSTPlDOxp6pGPgutQGG2Ivs+gd3L36/zXiwAAAAAOgAAAAAIAACAAAADHJXzCTk3N8hB4OJC693y+ALi4WjEMpmM7rkuMT9T4hCAAAACSlUAIwZvlHVKLezldganzc30Odo6TXjrS76iGajz/ZEAAAAA69wUEaAQ5iOG/IlkPUktgWVocHenOnMVkDfSv+EtEN2gdMqC0RP+bOKqgCFqmrQctoMUowVBcNQtGDcyNfaPF</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -774,11 +774,11 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=biproject.database.windows.net;User ID=dw;Initial Catalog=stage;Provider=SQLNCLI11.1;Application Name=SSIS-Package1-{EE934829-AF21-444B-A06F-BC607F0A3A5D}biproject.database.windows.net.stage.dw1;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=bi-school.database.windows.net;User ID=dw;Initial Catalog=stage;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package1-{EE934829-AF21-444B-A06F-BC607F0A3A5D}biproject.database.windows.net.stage.dw1;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAk35cOiVodEGoR+amNHIs5QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADRJDeNIpyiBzteO2yoqe/WyRCb2/oT7YxKEctinCWfLQAAAAAOgAAAAAIAACAAAADGjUHBMQfnC9djh2mNJAQUnPnWVF6FOm6uT61Ov5lxTCAAAACwhZDec0oIktWI/iFtPCCQbVoJrO+1jsKzoamfp37uG0AAAAD3WaRewAIc0y+PGNQJvJYLR6durIbe+WU07wkvHASb6TKdnzNOnyzJhHO5T+pGGByspMSJriX9H2C8knU07sbA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAk35cOiVodEGoR+amNHIs5QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABRIQV7j8Tk0NhVb2SAWzzNW3QuVQQmOCjSUawNGf/akQAAAAAOgAAAAAIAACAAAABsW5y/vIKWhZmVyvoaeYVg6tK4vYfgXdRyf+VJjtQ7TyAAAAC2KWMffWbs6qE5TD9MY12WVV2JMq98zvfC/DU8DyVMvkAAAABywRctXOGzoOsDVhl71eFUm1CqimoaXKDOGsY9ThcLjAoP+Fft7+XgS0ZsQJcYJs/2e+03WJ+W5i2YgjG2xWBn</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -1549,7 +1549,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dbo].[stage_compiled_case_details]</property>
+                  name="OpenRowset">[dbo].[STAGE_CASE_DETAILS]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -1605,32 +1605,6 @@
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
-                    <inputColumn
-                      refId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[created_date]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="created_date"
-                      externalMetadataColumnId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[created_date]"
-                      lineageId="Package\cases_detail\Derived Column.Outputs[Derived Column Output].Columns[created_date]" />
-                    <inputColumn
-                      refId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[updated_date]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="updated_date"
-                      externalMetadataColumnId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[updated_date]"
-                      lineageId="Package\cases_detail\Derived Column.Outputs[Derived Column Output].Columns[updated_date]" />
-                    <inputColumn
-                      refId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[status]"
-                      cachedDataType="i4"
-                      cachedName="status"
-                      externalMetadataColumnId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[status]"
-                      lineageId="Package\cases_detail\Derived Column.Outputs[Derived Column Output].Columns[status]" />
-                    <inputColumn
-                      refId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ObjectId]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="ObjectId"
-                      externalMetadataColumnId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[object_id]"
-                      lineageId="Package\cases_detail\Flat File Source.Outputs[Flat File Source Output].Columns[ObjectId]" />
                     <inputColumn
                       refId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[row_id]"
                       cachedCodepage="1252"
@@ -1695,25 +1669,17 @@
                       cachedName="db_datereport"
                       externalMetadataColumnId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[date_reported]"
                       lineageId="Package\cases_detail\Derived Column.Outputs[Derived Column Output].Columns[db_datereport]" />
+                    <inputColumn
+                      refId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ObjectId]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ObjectId"
+                      externalMetadataColumnId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ObjectId]"
+                      lineageId="Package\cases_detail\Flat File Source.Outputs[Flat File Source Output].Columns[ObjectId]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[created_date]"
-                      dataType="dbTimeStamp"
-                      name="created_date" />
-                    <externalMetadataColumn
-                      refId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[updated_date]"
-                      dataType="dbTimeStamp"
-                      name="updated_date" />
-                    <externalMetadataColumn
-                      refId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[status]"
-                      dataType="i4"
-                      name="status" />
-                    <externalMetadataColumn
-                      refId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[object_id]"
-                      dataType="i4"
-                      name="object_id" />
                     <externalMetadataColumn
                       refId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[row_id]"
                       dataType="i4"
@@ -1725,33 +1691,43 @@
                     <externalMetadataColumn
                       refId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[health_region]"
                       codePage="1252"
-                      dataType="text"
+                      dataType="str"
+                      length="255"
                       name="health_region" />
                     <externalMetadataColumn
                       refId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[age_group]"
                       codePage="1252"
-                      dataType="text"
+                      dataType="str"
+                      length="255"
                       name="age_group" />
                     <externalMetadataColumn
                       refId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[gender]"
                       codePage="1252"
-                      dataType="text"
+                      dataType="str"
+                      length="255"
                       name="gender" />
                     <externalMetadataColumn
                       refId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[exposure]"
                       codePage="1252"
-                      dataType="text"
+                      dataType="str"
+                      length="255"
                       name="exposure" />
                     <externalMetadataColumn
                       refId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[case_status]"
                       codePage="1252"
-                      dataType="text"
+                      dataType="str"
+                      length="255"
                       name="case_status" />
                     <externalMetadataColumn
                       refId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[province]"
                       codePage="1252"
-                      dataType="text"
+                      dataType="str"
+                      length="255"
                       name="province" />
+                    <externalMetadataColumn
+                      refId="Package\cases_detail\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ObjectId]"
+                      dataType="i4"
+                      name="ObjectId" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -1929,10 +1905,11 @@
                   <outputColumns>
                     <outputColumn
                       refId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[Outcome]"
-                      dataType="wstr"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      length="50"
+                      length="255"
                       lineageId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[Outcome]"
                       name="Outcome"
                       truncationRowDisposition="FailComponent">
@@ -1950,10 +1927,11 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[Age]"
-                      dataType="wstr"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      length="50"
+                      length="255"
                       lineageId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[Age]"
                       name="Age"
                       truncationRowDisposition="FailComponent">
@@ -1971,10 +1949,11 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[Gender]"
-                      dataType="wstr"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      length="50"
+                      length="255"
                       lineageId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[Gender]"
                       name="Gender"
                       truncationRowDisposition="FailComponent">
@@ -1992,10 +1971,11 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[Reporting PHU]"
-                      dataType="wstr"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      length="150"
+                      length="255"
                       lineageId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[Reporting PHU]"
                       name="Reporting PHU"
                       truncationRowDisposition="FailComponent">
@@ -2013,10 +1993,9 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[SpecimenDate]"
-                      dataType="wstr"
+                      dataType="date"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      length="50"
                       lineageId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[SpecimenDate]"
                       name="SpecimenDate"
                       truncationRowDisposition="FailComponent">
@@ -2074,7 +2053,8 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[CaseAcquisition info]"
-                      dataType="wstr"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       length="50"
@@ -2115,7 +2095,8 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[PHU Address]"
-                      dataType="wstr"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       length="255"
@@ -2136,7 +2117,8 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[PHU Website]"
-                      dataType="wstr"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       length="255"
@@ -2157,7 +2139,8 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[OutbreakRelated]"
-                      dataType="wstr"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       length="50"
@@ -2218,7 +2201,8 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[PHU Postal Code]"
-                      dataType="wstr"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       length="50"
@@ -2239,7 +2223,8 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[PHUCity]"
-                      dataType="wstr"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       length="50"
@@ -2828,7 +2813,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dbo].[stage_cases_report]</property>
+                  name="OpenRowset">[dbo].[STAGE_CASE_REPORT]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -2885,198 +2870,214 @@
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[created_date]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="created_date"
-                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[created_date]"
-                      lineageId="Package\cases_report\Derived Column.Outputs[Derived Column Output].Columns[created_date]" />
-                    <inputColumn
-                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[updated_date]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="updated_date"
-                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[updated_date]"
-                      lineageId="Package\cases_report\Derived Column.Outputs[Derived Column Output].Columns[updated_date]" />
-                    <inputColumn
-                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[status]"
-                      cachedDataType="i4"
-                      cachedName="status"
-                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[status]"
-                      lineageId="Package\cases_report\Derived Column.Outputs[Derived Column Output].Columns[status]" />
-                    <inputColumn
-                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Reporting PHU]"
-                      cachedDataType="wstr"
-                      cachedLength="150"
-                      cachedName="Reporting PHU"
-                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[reporting_phu]"
-                      lineageId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[Reporting PHU]" />
-                    <inputColumn
                       refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Outcome]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="255"
                       cachedName="Outcome"
-                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[outcome]"
+                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[OUTCOME]"
                       lineageId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[Outcome]" />
                     <inputColumn
-                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Age]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="Age"
-                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[age]"
-                      lineageId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[Age]" />
+                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Gender]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="255"
+                      cachedName="Gender"
+                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[GENDER]"
+                      lineageId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[Gender]" />
+                    <inputColumn
+                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Reporting PHU]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="255"
+                      cachedName="Reporting PHU"
+                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[REPORTING_PHU]"
+                      lineageId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[Reporting PHU]" />
                     <inputColumn
                       refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[SpecimenDate]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
+                      cachedDataType="date"
                       cachedName="SpecimenDate"
-                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[specimen_date]"
+                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SPECIMEN_DATE]"
                       lineageId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[SpecimenDate]" />
                     <inputColumn
                       refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[CaseReported Date]"
                       cachedDataType="date"
                       cachedName="CaseReported Date"
-                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[case_reported_date]"
+                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CASE_REPORTED_DATE]"
                       lineageId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[CaseReported Date]" />
                     <inputColumn
                       refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PHUCity]"
-                      cachedDataType="wstr"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
                       cachedLength="50"
                       cachedName="PHUCity"
-                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_city]"
+                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_CITY]"
                       lineageId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[PHUCity]" />
                     <inputColumn
                       refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[TestReported Date]"
                       cachedDataType="date"
                       cachedName="TestReported Date"
-                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[test_reported_date]"
+                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TEST_REPORTED_DATE]"
                       lineageId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[TestReported Date]" />
                     <inputColumn
                       refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[CaseAcquisition info]"
-                      cachedDataType="wstr"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
                       cachedLength="50"
                       cachedName="CaseAcquisition info"
-                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[case_acquisition_info]"
+                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CASE_ACQUISITION_INFO]"
                       lineageId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[CaseAcquisition info]" />
                     <inputColumn
                       refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[AccurateEpisode Dt]"
                       cachedDataType="date"
                       cachedName="AccurateEpisode Dt"
-                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[accurate_episode_dt]"
+                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ACCURATE_EPISODE_DT]"
                       lineageId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[AccurateEpisode Dt]" />
                     <inputColumn
+                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Age]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="255"
+                      cachedName="Age"
+                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AGE]"
+                      lineageId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[Age]" />
+                    <inputColumn
                       refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PHU Address]"
-                      cachedDataType="wstr"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
                       cachedLength="255"
                       cachedName="PHU Address"
-                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_address]"
+                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_ADDRESS]"
                       lineageId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[PHU Address]" />
                     <inputColumn
                       refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PHU Website]"
-                      cachedDataType="wstr"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
                       cachedLength="255"
                       cachedName="PHU Website"
-                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_website]"
+                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_WEBSITE]"
                       lineageId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[PHU Website]" />
                     <inputColumn
                       refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[OutbreakRelated]"
-                      cachedDataType="wstr"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
                       cachedLength="50"
                       cachedName="OutbreakRelated"
-                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[outbreak_related]"
+                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[OUTBREAK_RELATED]"
                       lineageId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[OutbreakRelated]" />
                     <inputColumn
                       refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PHU Latitude]"
                       cachedDataType="r4"
                       cachedName="PHU Latitude"
-                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_latitude]"
+                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_Latitude]"
                       lineageId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[PHU Latitude]" />
                     <inputColumn
                       refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PHU Longitude]"
                       cachedDataType="r4"
                       cachedName="PHU Longitude"
-                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_longitude]"
+                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_Longitude]"
                       lineageId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[PHU Longitude]" />
                     <inputColumn
                       refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PHU Postal Code]"
-                      cachedDataType="wstr"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
                       cachedLength="50"
                       cachedName="PHU Postal Code"
-                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_postal_code]"
+                      externalMetadataColumnId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_Postal_Code]"
                       lineageId="Package\cases_report\Data Conversion.Outputs[Data Conversion Output].Columns[PHU Postal Code]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[created_date]"
-                      dataType="dbTimeStamp"
-                      name="created_date" />
+                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[OUTCOME]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="OUTCOME" />
                     <externalMetadataColumn
-                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[updated_date]"
-                      dataType="dbTimeStamp"
-                      name="updated_date" />
+                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[GENDER]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="GENDER" />
                     <externalMetadataColumn
-                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[status]"
-                      dataType="i4"
-                      name="status" />
+                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[REPORTING_PHU]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="REPORTING_PHU" />
                     <externalMetadataColumn
-                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[reporting_phu]"
-                      dataType="nText"
-                      name="reporting_phu" />
-                    <externalMetadataColumn
-                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[outcome]"
-                      dataType="nText"
-                      name="outcome" />
-                    <externalMetadataColumn
-                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[age]"
-                      dataType="nText"
-                      name="age" />
-                    <externalMetadataColumn
-                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[specimen_date]"
+                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SPECIMEN_DATE]"
                       dataType="dbDate"
-                      name="specimen_date" />
+                      name="SPECIMEN_DATE" />
                     <externalMetadataColumn
-                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[case_reported_date]"
+                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CASE_REPORTED_DATE]"
                       dataType="dbDate"
-                      name="case_reported_date" />
+                      name="CASE_REPORTED_DATE" />
                     <externalMetadataColumn
-                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_city]"
-                      dataType="nText"
-                      name="phu_city" />
+                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_CITY]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="PHU_CITY" />
                     <externalMetadataColumn
-                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[test_reported_date]"
+                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TEST_REPORTED_DATE]"
                       dataType="dbDate"
-                      name="test_reported_date" />
+                      name="TEST_REPORTED_DATE" />
                     <externalMetadataColumn
-                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[case_acquisition_info]"
-                      dataType="nText"
-                      name="case_acquisition_info" />
+                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CASE_ACQUISITION_INFO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="CASE_ACQUISITION_INFO" />
                     <externalMetadataColumn
-                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[accurate_episode_dt]"
-                      dataType="dbDate"
-                      name="accurate_episode_dt" />
+                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ACCURATE_EPISODE_DT]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="ACCURATE_EPISODE_DT" />
                     <externalMetadataColumn
-                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_address]"
-                      dataType="nText"
-                      name="phu_address" />
+                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_ADDRESS]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="PHU_ADDRESS" />
                     <externalMetadataColumn
-                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_website]"
-                      dataType="nText"
-                      name="phu_website" />
+                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_WEBSITE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="PHU_WEBSITE" />
                     <externalMetadataColumn
-                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[outbreak_related]"
-                      dataType="nText"
-                      name="outbreak_related" />
+                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[OUTBREAK_RELATED]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="OUTBREAK_RELATED" />
                     <externalMetadataColumn
-                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_latitude]"
-                      dataType="r8"
-                      name="phu_latitude" />
+                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AGE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="AGE" />
                     <externalMetadataColumn
-                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_longitude]"
-                      dataType="r8"
-                      name="phu_longitude" />
+                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_Latitude]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="PHU_Latitude" />
                     <externalMetadataColumn
-                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_postal_code]"
-                      dataType="nText"
-                      name="phu_postal_code" />
+                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_Longitude]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="PHU_Longitude" />
+                    <externalMetadataColumn
+                      refId="Package\cases_report\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_Postal_Code]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="PHU_Postal_Code" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -3139,7 +3140,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{E561E4C3-E15A-4689-AE6E-65299DFBFAA7}"
-          SQLTask:SqlStatementSource="select LSET from data_flow where table_name= 'stage_compiled_case_details'"
+          SQLTask:SqlStatementSource="select LSET from data_flow where table_name= 'STAGE_CASE_DETAILS'"
           SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ResultBinding
             SQLTask:ResultName="LSET"
@@ -3160,7 +3161,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{E561E4C3-E15A-4689-AE6E-65299DFBFAA7}"
-          SQLTask:SqlStatementSource="select LSET from data_flow where table_name= 'stage_cases_report'"
+          SQLTask:SqlStatementSource="select LSET from data_flow where table_name= 'STAGE_CASE_REPORT'"
           SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ResultBinding
             SQLTask:ResultName="LSET"
@@ -3176,12 +3177,12 @@
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Get LSET ongoing_outbreak_phu"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{E561E4C3-E15A-4689-AE6E-65299DFBFAA7}"
-          SQLTask:SqlStatementSource="select LSET from data_flow where table_name= 'stage_ongoing_outbreaks_phu'"
+          SQLTask:SqlStatementSource="select LSET from data_flow where table_name= 'STAGE_ONGOING_OUTBREAK_PHU'"
           SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ResultBinding
             SQLTask:ResultName="LSET"
@@ -3197,12 +3198,12 @@
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Get LSET phu"
-      DTS:ThreadHint="4">
+      DTS:ThreadHint="5">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{E561E4C3-E15A-4689-AE6E-65299DFBFAA7}"
-          SQLTask:SqlStatementSource="select LSET from data_flow where table_name= 'stage_phu'"
+          SQLTask:SqlStatementSource="select LSET from data_flow where table_name= 'STAGE_PHU'"
           SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ResultBinding
             SQLTask:ResultName="LSET"
@@ -3218,12 +3219,12 @@
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Get LSET phu_group"
-      DTS:ThreadHint="5">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{E561E4C3-E15A-4689-AE6E-65299DFBFAA7}"
-          SQLTask:SqlStatementSource="select LSET from data_flow where table_name= 'stage_phu_group'"
+          SQLTask:SqlStatementSource="select LSET from data_flow where table_name= 'STAGE_PHU_GROUP'"
           SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ResultBinding
             SQLTask:ResultName="LSET"
@@ -3239,12 +3240,12 @@
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Get LSET vaccines_by_age"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="4">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{E561E4C3-E15A-4689-AE6E-65299DFBFAA7}"
-          SQLTask:SqlStatementSource="select LSET from data_flow where table_name= 'stage_vaccines_by_age'"
+          SQLTask:SqlStatementSource="select LSET from data_flow where table_name= 'STAGE_VACCINE_BY_AGES'"
           SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ResultBinding
             SQLTask:ResultName="LSET"
@@ -3317,12 +3318,12 @@
                   synchronousInputId="Package\on_going_outbreak_phu\Data Conversion.Inputs[Data Conversion Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\on_going_outbreak_phu\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of date]"
+                      refId="Package\on_going_outbreak_phu\Data Conversion.Outputs[Data Conversion Output].Columns[date]"
                       dataType="date"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\on_going_outbreak_phu\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of date]"
-                      name="Copy of date"
+                      lineageId="Package\on_going_outbreak_phu\Data Conversion.Outputs[Data Conversion Output].Columns[date]"
+                      name="date"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -3337,12 +3338,12 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\on_going_outbreak_phu\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of phu_num]"
+                      refId="Package\on_going_outbreak_phu\Data Conversion.Outputs[Data Conversion Output].Columns[phu_num]"
                       dataType="numeric"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\on_going_outbreak_phu\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of phu_num]"
-                      name="Copy of phu_num"
+                      lineageId="Package\on_going_outbreak_phu\Data Conversion.Outputs[Data Conversion Output].Columns[phu_num]"
+                      name="phu_num"
                       precision="18"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -3358,12 +3359,12 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\on_going_outbreak_phu\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of number_ongoing_outbreaks]"
+                      refId="Package\on_going_outbreak_phu\Data Conversion.Outputs[Data Conversion Output].Columns[number_ongoing_outbreaks]"
                       dataType="numeric"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\on_going_outbreak_phu\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of number_ongoing_outbreaks]"
-                      name="Copy of number_ongoing_outbreaks"
+                      lineageId="Package\on_going_outbreak_phu\Data Conversion.Outputs[Data Conversion Output].Columns[number_ongoing_outbreaks]"
+                      name="number_ongoing_outbreaks"
                       precision="18"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -3379,13 +3380,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\on_going_outbreak_phu\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of outbreak_group]"
-                      dataType="wstr"
+                      refId="Package\on_going_outbreak_phu\Data Conversion.Outputs[Data Conversion Output].Columns[outbreak_group]"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      length="50"
-                      lineageId="Package\on_going_outbreak_phu\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of outbreak_group]"
-                      name="Copy of outbreak_group"
+                      length="255"
+                      lineageId="Package\on_going_outbreak_phu\Data Conversion.Outputs[Data Conversion Output].Columns[outbreak_group]"
+                      name="outbreak_group"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -3735,7 +3737,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dbo].[stage_ongoing_outbreaks_phu]</property>
+                  name="OpenRowset">[dbo].[STAGE_ONGOING_OUTBREAK_PHU]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -3792,86 +3794,54 @@
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[created_date]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="created_date"
-                      externalMetadataColumnId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[created_date]"
-                      lineageId="Package\on_going_outbreak_phu\Derived Column.Outputs[Derived Column Output].Columns[created_date]" />
-                    <inputColumn
-                      refId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[updated_date]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="updated_date"
-                      externalMetadataColumnId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[updated_date]"
-                      lineageId="Package\on_going_outbreak_phu\Derived Column.Outputs[Derived Column Output].Columns[updated_date]" />
-                    <inputColumn
-                      refId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[status]"
-                      cachedDataType="i4"
-                      cachedName="status"
-                      externalMetadataColumnId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[status]"
-                      lineageId="Package\on_going_outbreak_phu\Derived Column.Outputs[Derived Column Output].Columns[status]" />
-                    <inputColumn
-                      refId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[date]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="date"
-                      externalMetadataColumnId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[date]"
-                      lineageId="Package\on_going_outbreak_phu\Flat File Source.Outputs[Flat File Source Output].Columns[date]" />
-                    <inputColumn
                       refId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[phu_num]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
+                      cachedDataType="numeric"
                       cachedName="phu_num"
+                      cachedPrecision="18"
                       externalMetadataColumnId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_num]"
-                      lineageId="Package\on_going_outbreak_phu\Flat File Source.Outputs[Flat File Source Output].Columns[phu_num]" />
-                    <inputColumn
-                      refId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[outbreak_group]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="outbreak_group"
-                      externalMetadataColumnId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[outbreak_group]"
-                      lineageId="Package\on_going_outbreak_phu\Flat File Source.Outputs[Flat File Source Output].Columns[outbreak_group]" />
+                      lineageId="Package\on_going_outbreak_phu\Data Conversion.Outputs[Data Conversion Output].Columns[phu_num]" />
                     <inputColumn
                       refId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[number_ongoing_outbreaks]"
+                      cachedDataType="numeric"
+                      cachedName="number_ongoing_outbreaks"
+                      cachedPrecision="18"
+                      externalMetadataColumnId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[number_ongoing_outbreaks]"
+                      lineageId="Package\on_going_outbreak_phu\Data Conversion.Outputs[Data Conversion Output].Columns[number_ongoing_outbreaks]" />
+                    <inputColumn
+                      refId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[date]"
+                      cachedDataType="date"
+                      cachedName="date"
+                      externalMetadataColumnId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DATE_OUTBREAK]"
+                      lineageId="Package\on_going_outbreak_phu\Data Conversion.Outputs[Data Conversion Output].Columns[date]" />
+                    <inputColumn
+                      refId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[outbreak_group]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="number_ongoing_outbreaks"
-                      externalMetadataColumnId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[number_ongoing_outbreaks]"
-                      lineageId="Package\on_going_outbreak_phu\Flat File Source.Outputs[Flat File Source Output].Columns[number_ongoing_outbreaks]" />
+                      cachedLength="255"
+                      cachedName="outbreak_group"
+                      externalMetadataColumnId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[outbreak_group]"
+                      lineageId="Package\on_going_outbreak_phu\Data Conversion.Outputs[Data Conversion Output].Columns[outbreak_group]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[created_date]"
-                      dataType="dbTimeStamp"
-                      name="created_date" />
-                    <externalMetadataColumn
-                      refId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[updated_date]"
-                      dataType="dbTimeStamp"
-                      name="updated_date" />
-                    <externalMetadataColumn
-                      refId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[status]"
-                      dataType="i4"
-                      name="status" />
-                    <externalMetadataColumn
-                      refId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[date]"
-                      dataType="dbDate"
-                      name="date" />
                     <externalMetadataColumn
                       refId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_num]"
                       dataType="i4"
                       name="phu_num" />
                     <externalMetadataColumn
                       refId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[outbreak_group]"
-                      dataType="wstr"
-                      length="150"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
                       name="outbreak_group" />
                     <externalMetadataColumn
                       refId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[number_ongoing_outbreaks]"
                       dataType="i4"
                       name="number_ongoing_outbreaks" />
+                    <externalMetadataColumn
+                      refId="Package\on_going_outbreak_phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DATE_OUTBREAK]"
+                      dataType="dbDate"
+                      name="DATE_OUTBREAK" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -4026,7 +3996,8 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\phu\Data Conversion.Outputs[Data Conversion Output].Columns[Reporting_PHU]"
-                      dataType="wstr"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       length="255"
@@ -4047,7 +4018,8 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\phu\Data Conversion.Outputs[Data Conversion Output].Columns[Reporting_PHU_Address]"
-                      dataType="wstr"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       length="255"
@@ -4068,7 +4040,8 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\phu\Data Conversion.Outputs[Data Conversion Output].Columns[Reporting_PHU_City]"
-                      dataType="wstr"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       length="255"
@@ -4089,7 +4062,8 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\phu\Data Conversion.Outputs[Data Conversion Output].Columns[Reporting_PHU_Postal_Code]"
-                      dataType="wstr"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       length="255"
@@ -4110,7 +4084,8 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\phu\Data Conversion.Outputs[Data Conversion Output].Columns[Reporting_PHU_Website]"
-                      dataType="wstr"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       length="255"
@@ -4568,7 +4543,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dbo].[stage_phu]</property>
+                  name="OpenRowset">[dbo].[STAGE_PHU]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -4625,124 +4600,115 @@
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[created_date]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="created_date"
-                      externalMetadataColumnId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[created_date]"
-                      lineageId="Package\phu\Derived Column.Outputs[Derived Column Output].Columns[created_date]" />
-                    <inputColumn
-                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[updated_date]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="updated_date"
-                      externalMetadataColumnId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[updated_date]"
-                      lineageId="Package\phu\Derived Column.Outputs[Derived Column Output].Columns[updated_date]" />
-                    <inputColumn
-                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[status]"
-                      cachedDataType="i4"
-                      cachedName="status"
-                      externalMetadataColumnId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[status]"
-                      lineageId="Package\phu\Derived Column.Outputs[Derived Column Output].Columns[status]" />
-                    <inputColumn
                       refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PHU_ID]"
                       cachedDataType="numeric"
                       cachedName="PHU_ID"
                       cachedPrecision="18"
-                      externalMetadataColumnId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_id]"
+                      externalMetadataColumnId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_ID]"
                       lineageId="Package\phu\Data Conversion.Outputs[Data Conversion Output].Columns[PHU_ID]" />
                     <inputColumn
                       refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Reporting_PHU]"
-                      cachedDataType="wstr"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
                       cachedLength="255"
                       cachedName="Reporting_PHU"
-                      externalMetadataColumnId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[reporting_phu]"
+                      externalMetadataColumnId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Reporting_PHU]"
                       lineageId="Package\phu\Data Conversion.Outputs[Data Conversion Output].Columns[Reporting_PHU]" />
                     <inputColumn
                       refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Reporting_PHU_Address]"
-                      cachedDataType="wstr"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
                       cachedLength="255"
                       cachedName="Reporting_PHU_Address"
-                      externalMetadataColumnId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[reporting_phu_address]"
+                      externalMetadataColumnId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Reporting_PHU_Address]"
                       lineageId="Package\phu\Data Conversion.Outputs[Data Conversion Output].Columns[Reporting_PHU_Address]" />
                     <inputColumn
                       refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Reporting_PHU_City]"
-                      cachedDataType="wstr"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
                       cachedLength="255"
                       cachedName="Reporting_PHU_City"
-                      externalMetadataColumnId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[reporting_phu_city]"
+                      externalMetadataColumnId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Reporting_PHU_City]"
                       lineageId="Package\phu\Data Conversion.Outputs[Data Conversion Output].Columns[Reporting_PHU_City]" />
                     <inputColumn
                       refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Reporting_PHU_Postal_Code]"
-                      cachedDataType="wstr"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
                       cachedLength="255"
                       cachedName="Reporting_PHU_Postal_Code"
-                      externalMetadataColumnId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[reporting_phu_postal_code]"
+                      externalMetadataColumnId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Reporting_PHU_Postal_Code]"
                       lineageId="Package\phu\Data Conversion.Outputs[Data Conversion Output].Columns[Reporting_PHU_Postal_Code]" />
+                    <inputColumn
+                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Reporting_PHU_Website]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="255"
+                      cachedName="Reporting_PHU_Website"
+                      externalMetadataColumnId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Reporting_PHU_Website]"
+                      lineageId="Package\phu\Data Conversion.Outputs[Data Conversion Output].Columns[Reporting_PHU_Website]" />
                     <inputColumn
                       refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Reporting_PHU_Latitude]"
                       cachedDataType="r8"
                       cachedName="Reporting_PHU_Latitude"
-                      externalMetadataColumnId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[reporting_phu_latitude]"
+                      externalMetadataColumnId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Reporting_PHU_Latitude]"
                       lineageId="Package\phu\Data Conversion.Outputs[Data Conversion Output].Columns[Reporting_PHU_Latitude]" />
                     <inputColumn
                       refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Reporting_PHU_Longitude]"
                       cachedDataType="r8"
                       cachedName="Reporting_PHU_Longitude"
-                      externalMetadataColumnId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[reporting_phu_longitude]"
+                      externalMetadataColumnId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Reporting_PHU_Longitude]"
                       lineageId="Package\phu\Data Conversion.Outputs[Data Conversion Output].Columns[Reporting_PHU_Longitude]" />
-                    <inputColumn
-                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Reporting_PHU_Website]"
-                      cachedDataType="wstr"
-                      cachedLength="255"
-                      cachedName="Reporting_PHU_Website"
-                      externalMetadataColumnId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[reporting_phu_website]"
-                      lineageId="Package\phu\Data Conversion.Outputs[Data Conversion Output].Columns[Reporting_PHU_Website]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[created_date]"
-                      dataType="dbTimeStamp"
-                      name="created_date" />
+                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_ID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="PHU_ID" />
                     <externalMetadataColumn
-                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[updated_date]"
-                      dataType="dbTimeStamp"
-                      name="updated_date" />
+                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Reporting_PHU]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Reporting_PHU" />
                     <externalMetadataColumn
-                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[status]"
-                      dataType="i4"
-                      name="status" />
+                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Reporting_PHU_Address]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Reporting_PHU_Address" />
                     <externalMetadataColumn
-                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_id]"
-                      dataType="i4"
-                      name="phu_id" />
+                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Reporting_PHU_City]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Reporting_PHU_City" />
                     <externalMetadataColumn
-                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[reporting_phu]"
-                      dataType="nText"
-                      name="reporting_phu" />
+                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Reporting_PHU_Postal_Code]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Reporting_PHU_Postal_Code" />
                     <externalMetadataColumn
-                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[reporting_phu_address]"
-                      dataType="nText"
-                      name="reporting_phu_address" />
+                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Reporting_PHU_Website]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Reporting_PHU_Website" />
                     <externalMetadataColumn
-                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[reporting_phu_city]"
-                      dataType="nText"
-                      name="reporting_phu_city" />
+                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Reporting_PHU_Latitude]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Reporting_PHU_Latitude" />
                     <externalMetadataColumn
-                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[reporting_phu_postal_code]"
-                      dataType="nText"
-                      name="reporting_phu_postal_code" />
-                    <externalMetadataColumn
-                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[reporting_phu_website]"
-                      dataType="nText"
-                      name="reporting_phu_website" />
-                    <externalMetadataColumn
-                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[reporting_phu_latitude]"
-                      dataType="r8"
-                      name="reporting_phu_latitude" />
-                    <externalMetadataColumn
-                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[reporting_phu_longitude]"
-                      dataType="r8"
-                      name="reporting_phu_longitude" />
+                      refId="Package\phu\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Reporting_PHU_Longitude]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Reporting_PHU_Longitude" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -4852,7 +4818,8 @@
                   <outputColumns>
                     <outputColumn
                       refId="Package\phu_group\Data Conversion.Outputs[Data Conversion Output].Columns[PHU_Group]"
-                      dataType="wstr"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       length="255"
@@ -4873,7 +4840,8 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\phu_group\Data Conversion.Outputs[Data Conversion Output].Columns[PHU_City]"
-                      dataType="wstr"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       length="255"
@@ -4894,7 +4862,8 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\phu_group\Data Conversion.Outputs[Data Conversion Output].Columns[PHU_region]"
-                      dataType="wstr"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       length="255"
@@ -5222,7 +5191,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dbo].[stage_phu_group]</property>
+                  name="OpenRowset">[dbo].[STAGE_PHU_GROUP]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -5279,71 +5248,50 @@
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[created_date]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="created_date"
-                      externalMetadataColumnId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[created_date]"
-                      lineageId="Package\phu_group\Derived Column.Outputs[Derived Column Output].Columns[created_date]" />
-                    <inputColumn
-                      refId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[updated_date]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="updated_date"
-                      externalMetadataColumnId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[updated_date]"
-                      lineageId="Package\phu_group\Derived Column.Outputs[Derived Column Output].Columns[updated_date]" />
-                    <inputColumn
-                      refId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[status]"
-                      cachedDataType="i4"
-                      cachedName="status"
-                      externalMetadataColumnId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[status]"
-                      lineageId="Package\phu_group\Derived Column.Outputs[Derived Column Output].Columns[status]" />
-                    <inputColumn
                       refId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PHU_Group]"
-                      cachedDataType="wstr"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
                       cachedLength="255"
                       cachedName="PHU_Group"
-                      externalMetadataColumnId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_group]"
+                      externalMetadataColumnId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_GROUP]"
                       lineageId="Package\phu_group\Data Conversion.Outputs[Data Conversion Output].Columns[PHU_Group]" />
                     <inputColumn
                       refId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PHU_City]"
-                      cachedDataType="wstr"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
                       cachedLength="255"
                       cachedName="PHU_City"
-                      externalMetadataColumnId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_city]"
+                      externalMetadataColumnId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_CITY]"
                       lineageId="Package\phu_group\Data Conversion.Outputs[Data Conversion Output].Columns[PHU_City]" />
                     <inputColumn
                       refId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PHU_region]"
-                      cachedDataType="wstr"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
                       cachedLength="255"
                       cachedName="PHU_region"
-                      externalMetadataColumnId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_region]"
+                      externalMetadataColumnId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_REGION]"
                       lineageId="Package\phu_group\Data Conversion.Outputs[Data Conversion Output].Columns[PHU_region]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[created_date]"
-                      dataType="dbTimeStamp"
-                      name="created_date" />
+                      refId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_GROUP]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="PHU_GROUP" />
                     <externalMetadataColumn
-                      refId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[updated_date]"
-                      dataType="dbTimeStamp"
-                      name="updated_date" />
+                      refId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_CITY]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="PHU_CITY" />
                     <externalMetadataColumn
-                      refId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[status]"
-                      dataType="i4"
-                      name="status" />
-                    <externalMetadataColumn
-                      refId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_group]"
-                      dataType="nText"
-                      name="phu_group" />
-                    <externalMetadataColumn
-                      refId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_city]"
-                      dataType="nText"
-                      name="phu_city" />
-                    <externalMetadataColumn
-                      refId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_region]"
-                      dataType="nText"
-                      name="phu_region" />
+                      refId="Package\phu_group\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_REGION]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="PHU_REGION" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -5406,7 +5354,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{E561E4C3-E15A-4689-AE6E-65299DFBFAA7}"
-          SQLTask:SqlStatementSource="update data_flow set CET = getDate() where table_name = 'stage_compiled_case_details';&#xA;select CET from data_flow where table_name = 'stage_compiled_case_details';"
+          SQLTask:SqlStatementSource="update data_flow set CET = getDate() where table_name = 'STAGE_CASE_DETAILS';&#xA;select CET from data_flow where table_name = 'STAGE_CASE_DETAILS';"
           SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ResultBinding
             SQLTask:ResultName="CET"
@@ -5427,7 +5375,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{E561E4C3-E15A-4689-AE6E-65299DFBFAA7}"
-          SQLTask:SqlStatementSource="update data_flow set CET = getDate() where table_name = 'stage_cases_report';&#xA;select CET from data_flow where table_name = 'stage_cases_report';"
+          SQLTask:SqlStatementSource="update data_flow set CET = getDate() where table_name = 'STAGE_CASE_REPORT';&#xA;select CET from data_flow where table_name = 'STAGE_CASE_REPORT';"
           SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ResultBinding
             SQLTask:ResultName="CET"
@@ -5443,12 +5391,12 @@
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Set CET ongoing_outbreak_phu"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{E561E4C3-E15A-4689-AE6E-65299DFBFAA7}"
-          SQLTask:SqlStatementSource="update data_flow set CET = getDate() where table_name = 'stage_ongoing_outbreaks_phu';&#xA;select CET from data_flow where table_name = 'stage_ongoing_outbreaks_phu';"
+          SQLTask:SqlStatementSource="update data_flow set CET = getDate() where table_name = 'STAGE_ONGOING_OUTBREAK_PHU';&#xA;select CET from data_flow where table_name = 'STAGE_ONGOING_OUTBREAK_PHU';"
           SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ResultBinding
             SQLTask:ResultName="CET"
@@ -5464,12 +5412,12 @@
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Set CET phu"
-      DTS:ThreadHint="4">
+      DTS:ThreadHint="5">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{E561E4C3-E15A-4689-AE6E-65299DFBFAA7}"
-          SQLTask:SqlStatementSource="update data_flow set CET = getDate() where table_name = 'stage_phu';&#xA;select CET from data_flow where table_name = 'stage_phu';"
+          SQLTask:SqlStatementSource="update data_flow set CET = getDate() where table_name = 'STAGE_PHU';&#xA;select CET from data_flow where table_name = 'STAGE_PHU';"
           SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ResultBinding
             SQLTask:ResultName="CET"
@@ -5485,12 +5433,12 @@
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Set CET phu_group"
-      DTS:ThreadHint="5">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{E561E4C3-E15A-4689-AE6E-65299DFBFAA7}"
-          SQLTask:SqlStatementSource="update data_flow set CET = getDate() where table_name = 'stage_phu_group';&#xA;select CET from data_flow where table_name = 'stage_phu_group';"
+          SQLTask:SqlStatementSource="update data_flow set CET = getDate() where table_name = 'STAGE_PHU_GROUP';&#xA;select CET from data_flow where table_name = 'STAGE_PHU_GROUP';"
           SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ResultBinding
             SQLTask:ResultName="CET"
@@ -5506,12 +5454,12 @@
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Set CET vaccines_by_age"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="4">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{E561E4C3-E15A-4689-AE6E-65299DFBFAA7}"
-          SQLTask:SqlStatementSource="update data_flow set CET = getDate() where table_name = 'stage_vaccines_by_age';&#xA;select CET from data_flow where table_name = 'stage_vaccines_by_age';"
+          SQLTask:SqlStatementSource="update data_flow set CET = getDate() where table_name = 'STAGE_VACCINE_BY_AGES';&#xA;select CET from data_flow where table_name = 'STAGE_VACCINE_BY_AGES';"
           SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ResultBinding
             SQLTask:ResultName="CET"
@@ -5532,7 +5480,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{E561E4C3-E15A-4689-AE6E-65299DFBFAA7}"
-          SQLTask:SqlStatementSource="update data_flow set LSET = CET where table_name = 'stage_cases_report'" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="update data_flow set LSET = CET where table_name = 'STAGE_CASE_DETAILS'" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -5548,7 +5496,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{E561E4C3-E15A-4689-AE6E-65299DFBFAA7}"
-          SQLTask:SqlStatementSource="update data_flow set LSET = CET where table_name = 'stage_cases_report'" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="update data_flow set LSET = CET where table_name = 'STAGE_CASE_REPORT'" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -5559,12 +5507,12 @@
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Set LSET ongoing_outbreak_phu"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{E561E4C3-E15A-4689-AE6E-65299DFBFAA7}"
-          SQLTask:SqlStatementSource="update data_flow set LSET = CET where table_name = 'stage_ongoing_outbreaks_phu'" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="update data_flow set LSET = CET where table_name = 'STAGE_ONGOING_OUTBREAK_PHU'" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -5575,12 +5523,12 @@
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Set LSET phu"
-      DTS:ThreadHint="4">
+      DTS:ThreadHint="5">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{E561E4C3-E15A-4689-AE6E-65299DFBFAA7}"
-          SQLTask:SqlStatementSource="update data_flow set LSET = CET where table_name = 'stage_phu'" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="update data_flow set LSET = CET where table_name = 'STAGE_PHU'" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -5591,12 +5539,12 @@
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Set LSET phu_group"
-      DTS:ThreadHint="5">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{E561E4C3-E15A-4689-AE6E-65299DFBFAA7}"
-          SQLTask:SqlStatementSource="update data_flow set LSET = CET where table_name = 'stage_ongoing_outbreaks_phu'" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="update data_flow set LSET = CET where table_name = 'STAGE_PHU_GROUP'" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -5607,12 +5555,12 @@
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Set LSET vaccines_by_age"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="4">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{E561E4C3-E15A-4689-AE6E-65299DFBFAA7}"
-          SQLTask:SqlStatementSource="update data_flow set LSET = CET where table_name = 'stage_vaccines_by_age'" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="update data_flow set LSET = CET where table_name = 'STAGE_VACCINE_BY_AGES'" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -5628,7 +5576,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{EE934829-AF21-444B-A06F-BC607F0A3A5D}"
-          SQLTask:SqlStatementSource="truncate table stage_compiled_case_details" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="truncate table STAGE_CASE_DETAILS" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -5644,7 +5592,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{EE934829-AF21-444B-A06F-BC607F0A3A5D}"
-          SQLTask:SqlStatementSource="truncate table stage_cases_report" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="truncate table STAGE_CASE_REPORT" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -5655,12 +5603,12 @@
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate ongoing_outbreak_phu"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{EE934829-AF21-444B-A06F-BC607F0A3A5D}"
-          SQLTask:SqlStatementSource="truncate table stage_ongoing_outbreaks_phu" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="truncate table STAGE_ONGOING_OUTBREAK_PHU" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -5671,12 +5619,12 @@
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate phu"
-      DTS:ThreadHint="4">
+      DTS:ThreadHint="5">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{EE934829-AF21-444B-A06F-BC607F0A3A5D}"
-          SQLTask:SqlStatementSource="truncate table stage_phu" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="truncate table STAGE_PHU" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -5687,12 +5635,12 @@
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate phu_group"
-      DTS:ThreadHint="5">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{EE934829-AF21-444B-A06F-BC607F0A3A5D}"
-          SQLTask:SqlStatementSource="truncate table stage_phu_group" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="truncate table STAGE_PHU_GROUP" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -5703,12 +5651,12 @@
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate vaccines_by_ages"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="4">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{EE934829-AF21-444B-A06F-BC607F0A3A5D}"
-          SQLTask:SqlStatementSource="truncate table stage_vaccines_by_age_phu" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="truncate table STAGE_VACCINE_BY_AGES" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -6119,7 +6067,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dbo].[stage_vaccines_by_age_phu]</property>
+                  name="OpenRowset">[dbo].[STAGE_VACCINE_BY_AGES]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -6176,44 +6124,12 @@
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Date]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="Date"
-                      externalMetadataColumnId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[vaccines_date]"
-                      lineageId="Package\vaccines_by_age\Flat File Source.Outputs[Flat File Source Output].Columns[Date]" />
-                    <inputColumn
-                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PHU ID]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="PHU ID"
-                      externalMetadataColumnId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_id]"
-                      lineageId="Package\vaccines_by_age\Flat File Source.Outputs[Flat File Source Output].Columns[PHU ID]" />
-                    <inputColumn
-                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Agegroup]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="Agegroup"
-                      externalMetadataColumnId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[age_group]"
-                      lineageId="Package\vaccines_by_age\Flat File Source.Outputs[Flat File Source Output].Columns[Agegroup]" />
-                    <inputColumn
-                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[At least one dose_cumulative]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="At least one dose_cumulative"
-                      externalMetadataColumnId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[at_least_one_dose_cummulative]"
-                      lineageId="Package\vaccines_by_age\Flat File Source.Outputs[Flat File Source Output].Columns[At least one dose_cumulative]" />
-                    <inputColumn
                       refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Second_dose_cumulative]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Second_dose_cumulative"
-                      externalMetadataColumnId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[second_dose_cummulative]"
+                      externalMetadataColumnId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SECOND_DOSE_CUMULATIVE]"
                       lineageId="Package\vaccines_by_age\Flat File Source.Outputs[Flat File Source Output].Columns[Second_dose_cumulative]" />
                     <inputColumn
                       refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[fully_vaccinated_cumulative]"
@@ -6221,7 +6137,7 @@
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="fully_vaccinated_cumulative"
-                      externalMetadataColumnId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[fully_vaccinated_cummulative]"
+                      externalMetadataColumnId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[FULLY_VACCINATED_CUMULATIVE]"
                       lineageId="Package\vaccines_by_age\Flat File Source.Outputs[Flat File Source Output].Columns[fully_vaccinated_cumulative]" />
                     <inputColumn
                       refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[third_dose_cumulative]"
@@ -6229,70 +6145,83 @@
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="third_dose_cumulative"
-                      externalMetadataColumnId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[third_dose_cummulative]"
+                      externalMetadataColumnId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[THIRD_DOSE_CUMULATIVE]"
                       lineageId="Package\vaccines_by_age\Flat File Source.Outputs[Flat File Source Output].Columns[third_dose_cumulative]" />
                     <inputColumn
-                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[created_date]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="created_date"
-                      externalMetadataColumnId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[created_date]"
-                      lineageId="Package\vaccines_by_age\Derived Column.Outputs[Derived Column Output].Columns[created_date]" />
+                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Date]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Date"
+                      externalMetadataColumnId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DATE_VACCINE]"
+                      lineageId="Package\vaccines_by_age\Flat File Source.Outputs[Flat File Source Output].Columns[Date]" />
                     <inputColumn
-                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[updated_date]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="updated_date"
-                      externalMetadataColumnId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[updated_date]"
-                      lineageId="Package\vaccines_by_age\Derived Column.Outputs[Derived Column Output].Columns[updated_date]" />
+                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PHU ID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="PHU ID"
+                      externalMetadataColumnId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_ID]"
+                      lineageId="Package\vaccines_by_age\Flat File Source.Outputs[Flat File Source Output].Columns[PHU ID]" />
                     <inputColumn
-                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[status]"
-                      cachedDataType="i4"
-                      cachedName="status"
-                      externalMetadataColumnId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[status]"
-                      lineageId="Package\vaccines_by_age\Derived Column.Outputs[Derived Column Output].Columns[status]" />
+                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Agegroup]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Agegroup"
+                      externalMetadataColumnId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AGE_GROUP]"
+                      lineageId="Package\vaccines_by_age\Flat File Source.Outputs[Flat File Source Output].Columns[Agegroup]" />
+                    <inputColumn
+                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[At least one dose_cumulative]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="At least one dose_cumulative"
+                      externalMetadataColumnId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AT_LEAST_ONE_DOSE_CUMULATIVE]"
+                      lineageId="Package\vaccines_by_age\Flat File Source.Outputs[Flat File Source Output].Columns[At least one dose_cumulative]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[vaccines_date]"
+                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DATE_VACCINE]"
                       dataType="dbDate"
-                      name="vaccines_date" />
+                      name="DATE_VACCINE" />
                     <externalMetadataColumn
-                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[phu_id]"
-                      dataType="i4"
-                      name="phu_id" />
-                    <externalMetadataColumn
-                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[age_group]"
+                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_ID]"
                       codePage="1252"
-                      dataType="text"
-                      name="age_group" />
+                      dataType="str"
+                      length="255"
+                      name="PHU_ID" />
                     <externalMetadataColumn
-                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[at_least_one_dose_cummulative]"
-                      dataType="i4"
-                      name="at_least_one_dose_cummulative" />
+                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AGE_GROUP]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="AGE_GROUP" />
                     <externalMetadataColumn
-                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[second_dose_cummulative]"
-                      dataType="i4"
-                      name="second_dose_cummulative" />
+                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AT_LEAST_ONE_DOSE_CUMULATIVE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="AT_LEAST_ONE_DOSE_CUMULATIVE" />
                     <externalMetadataColumn
-                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[fully_vaccinated_cummulative]"
-                      dataType="i4"
-                      name="fully_vaccinated_cummulative" />
+                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SECOND_DOSE_CUMULATIVE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="SECOND_DOSE_CUMULATIVE" />
                     <externalMetadataColumn
-                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[third_dose_cummulative]"
-                      dataType="i4"
-                      name="third_dose_cummulative" />
+                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[FULLY_VACCINATED_CUMULATIVE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="FULLY_VACCINATED_CUMULATIVE" />
                     <externalMetadataColumn
-                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[created_date]"
-                      dataType="dbTimeStamp"
-                      name="created_date" />
-                    <externalMetadataColumn
-                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[updated_date]"
-                      dataType="dbTimeStamp"
-                      name="updated_date" />
-                    <externalMetadataColumn
-                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[status]"
-                      dataType="i4"
-                      name="status" />
+                      refId="Package\vaccines_by_age\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[THIRD_DOSE_CUMULATIVE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="THIRD_DOSE_CUMULATIVE" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -6613,13 +6542,13 @@
           Id="Package\Set CET vaccines_by_age"
           TopLeft="60,60" />
         <NodeLayout
-          Size="184,42"
-          Id="Package\Set LSET cases_report"
-          TopLeft="1023.07824810047,392.35014016297" />
-        <NodeLayout
           Size="190,42"
           Id="Package\Set LSET cases_detail"
           TopLeft="1240.83333290286,389.450979687091" />
+        <NodeLayout
+          Size="184,42"
+          Id="Package\Set LSET cases_report"
+          TopLeft="1023.07824810047,392.35014016297" />
         <NodeLayout
           Size="232,42"
           Id="Package\Set LSET ongoing_outbreak_phu"
@@ -7273,35 +7202,13 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="158,42"
-          Id="Package\cases_detail\Derived Column"
-          TopLeft="109.428573326189,200.235295565483" />
-        <NodeLayout
           Size="170,42"
           Id="Package\cases_detail\OLE DB Destination"
           TopLeft="107.64285906683,286.239218361351" />
-        <EdgeLayout
-          Id="Package\cases_detail.Paths[Derived Column Output]"
-          TopLeft="190.535716196509,242.235295565483">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,44.003922795868"
-              Start="0,0"
-              End="0,36.503922795868">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,36.503922795868" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+        <NodeLayout
+          Size="158,42"
+          Id="Package\cases_detail\Derived Column"
+          TopLeft="109.428573326189,200.235295565483" />
         <NodeLayout
           Size="156,42"
           Id="Package\cases_detail\Flat File Source"
@@ -7320,6 +7227,28 @@
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,35.735295565483" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\cases_detail.Paths[Derived Column Output]"
+          TopLeft="190.535716196509,242.235295565483">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,44.003922795868"
+              Start="0,0"
+              End="0,36.503922795868">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,36.503922795868" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7472,29 +7401,29 @@
         <NodeLayout
           Size="153,42"
           Id="Package\on_going_outbreak_phu\Derived Column"
-          TopLeft="109.428573326189,172.235295565483" />
+          TopLeft="109.428573326189,152.235295565483" />
         <NodeLayout
           Size="156,42"
           Id="Package\on_going_outbreak_phu\Data Conversion"
-          TopLeft="105,88" />
+          TopLeft="105,77" />
         <NodeLayout
           Size="170,42"
           Id="Package\on_going_outbreak_phu\OLE DB Destination"
-          TopLeft="93.64285906683,261.239218361351" />
+          TopLeft="95.64285906683,227.239218361351" />
         <EdgeLayout
           Id="Package\on_going_outbreak_phu.Paths[Flat File Source Output]"
           TopLeft="182.25,49">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,39"
+              EndConnector="0,28"
               Start="0,0"
-              End="0,31.5">
+              End="0,20.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,31.5" />
+                    End="0,20.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7505,18 +7434,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\on_going_outbreak_phu.Paths[Derived Column Output]"
-          TopLeft="182.285716196509,214.235295565483">
+          TopLeft="183.285716196509,194.235295565483">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,47.003922795868"
+              EndConnector="0,33.003922795868"
               Start="0,0"
-              End="0,39.503922795868">
+              End="0,25.503922795868">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,39.503922795868" />
+                    End="0,25.503922795868" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7527,18 +7456,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\on_going_outbreak_phu.Paths[Data Conversion Output]"
-          TopLeft="184.464286663094,130">
+          TopLeft="184.464286663094,119">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,42.235295565483"
+              EndConnector="0,33.235295565483"
               Start="0,0"
-              End="0,34.735295565483">
+              End="0,25.735295565483">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,34.735295565483" />
+                    End="0,25.735295565483" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
