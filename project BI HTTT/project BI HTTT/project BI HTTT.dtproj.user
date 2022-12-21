@@ -8,7 +8,7 @@
         <UseWinAuth>false</UseWinAuth>
         <WinAuthUserName />
         <WinAuthDomain />
-        <StartObjectID>Source-Stage.dtsx</StartObjectID>
+        <StartObjectID>Stage-NDS.dtsx</StartObjectID>
         <Run64BitRuntime>false</Run64BitRuntime>
         <UserIDs>
           <ConfigurationSetting>
