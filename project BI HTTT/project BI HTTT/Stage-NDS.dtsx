@@ -11,8 +11,8 @@
   DTS:LocaleID="1066"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="99"
-  DTS:VersionGUID="{3A873167-DAEE-49BA-889F-0DD86A2C1E88}">
+  DTS:VersionBuild="102"
+  DTS:VersionGUID="{395BFD5B-0EA4-43E9-9E0A-A64BA7E28B1C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -30,7 +30,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlWzB+9Eihk6x+98pm1CGpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADE8dwCsKIr/iDqRNALtILyLqIZEy1P1Yz9ioUdf0kHnwAAAAAOgAAAAAIAACAAAABftpF3taTJO3bUDSZzAhsjbk/UbZbAlE0b+cfo9txlRiAAAACPUvbZSA6OInMIGcAviV7fda3xgsPi9i+FNueR7It9pkAAAABk27Qr9/79TOGTbd+E8Vev2NQ6HmZl2IHtOaAByY+WPjunbdgPkXNmiuxLOe+hqP8Lhg63eVLULwqRlmV01AXE</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlWzB+9Eihk6x+98pm1CGpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABMHn5m5vZUFR5Zy477QUMzaSgE1DUavb4j7KDzEp9V8gAAAAAOgAAAAAIAACAAAACZCUjEfO1n6+kUuVWwAyqeEzOdre2GpsAMhQeMnviOhSAAAADjeG9gqpMKz+X5jetpKfEz3LPeGePmKEUOb4oeWsEfQUAAAADp1E8WzdfeVC/BXkwoTR8oJf9wpX4CZIvYNa31LOEEoHs/Ht6iAYkYJSiqxjhAVH30/2DVbkWS2i/cAgovmg7u</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -48,7 +48,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlWzB+9Eihk6x+98pm1CGpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACywbjsnzcap6oUw/j73l+1fVVDJtH5iqd0PiDWa1zKBQAAAAAOgAAAAAIAACAAAAALm1PDAZQi123sVNdMw8hmTO2fBIFa4dH7NX15zSXEgiAAAAAbcxgDj3Xe2CLgdOgsHBelfOBCQEJbLHZ8J6v8oT10tUAAAABBzZRcC7hSv5woHzz8VSsvbWcR/CIywDCJcyDcQbbijjbfFq/F4UwKzG/xYsR8uY2cgITRF8TOaaUQlPfKbRCn</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlWzB+9Eihk6x+98pm1CGpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACrLS3tENdMgpVpl5th694DvNusN0OvIoax1WhjTucX7AAAAAAOgAAAAAIAACAAAACe2q/ylECV5HAzvt18A7qaXqxopgGXGnfshq9B4v5oiyAAAACqpl2FfZtrGmhrKRefAiZIJ+dCFCCIfDBQ1NRFp2UtS0AAAAAoO/4cv6lJfLIrSQS4e55YAyZVdbdXek12d36S0f2/EZLgBNqk0NSk0hZUUKMADwdmwT6SYV1XNTqzNZd35wI3</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -4514,7 +4514,7 @@ where [refTable].[PHU_GROUP_NAME] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Data Flow Task 3\416:invalid};</property>
+                  name="ParameterMap">#{Package\Data Flow Task 3\Merge Join.Outputs[Merge Join Output].Columns[PHU_GROUP]};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -6875,7 +6875,7 @@ where [refTable].[OUTBREAK_GROUP_NAME] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Data Flow Task 4\417:invalid};</property>
+                  name="ParameterMap">#{Package\Data Flow Task 4\463:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -8416,7 +8416,9 @@ where [refTable].[AGE_GROUP_TYPE] = ?</property>
                     isUsed="True">
                     <externalMetadataColumn
                       refId="Package\Data Flow Task 5\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
                       name="Param_0">
                       <properties>
                         <property
@@ -8728,7 +8730,9 @@ where [refTable].[AGE_GROUP_TYPE] = ?</property>
                       name="OBJECT_ID" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task 5\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ROW_ID]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
                       name="ROW_ID" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task 5\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DATE_REPORTED]"
@@ -9358,7 +9362,7 @@ where [refTable].[AGE_GROUP_TYPE] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Data Flow Task 6\418:invalid};</property>
+                  name="ParameterMap">#{Package\Data Flow Task 6\464:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -9518,7 +9522,7 @@ where [refTable].[PHU] = ? and [refTable].[CITY] = ? and [refTable].[ADDRESS] = 
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Data Flow Task 6\419:invalid};#{Package\Data Flow Task 6\420:invalid};#{Package\Data Flow Task 6\421:invalid};#{Package\Data Flow Task 6\422:invalid};#{Package\Data Flow Task 6\423:invalid};#{Package\Data Flow Task 6\424:invalid};#{Package\Data Flow Task 6\425:invalid};</property>
+                  name="ParameterMap">#{Package\Data Flow Task 6\465:invalid};#{Package\Data Flow Task 6\466:invalid};#{Package\Data Flow Task 6\467:invalid};#{Package\Data Flow Task 6\468:invalid};#{Package\Data Flow Task 6\469:invalid};#{Package\Data Flow Task 6\470:invalid};#{Package\Data Flow Task 6\471:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -9786,7 +9790,7 @@ where [refTable].[id] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Data Flow Task 6\426:invalid};</property>
+                  name="ParameterMap">#{Package\Data Flow Task 6\472:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -11470,7 +11474,7 @@ where [refTable].[date] = ? and [refTable].[phu_id] = ? and [refTable].[age_grou
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Data Flow Task 7\OLE DB Source.Outputs[OLE DB Source Output].Columns[DATE_VACCINE]};#{Package\Data Flow Task 7\Lookup 1.Outputs[Lookup Match Output].Columns[phu_id_NDS]};#{Package\Data Flow Task 7\39:invalid};</property>
+                  name="ParameterMap">#{Package\Data Flow Task 7\OLE DB Source.Outputs[OLE DB Source Output].Columns[DATE_VACCINE]};#{Package\Data Flow Task 7\Lookup 1.Outputs[Lookup Match Output].Columns[phu_id_NDS]};#{Package\Data Flow Task 7\473:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -13623,7 +13627,7 @@ where [refTable].[date] = ? and [refTable].[phu_id] = ? and [refTable].[age_grou
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -13633,7 +13637,7 @@ where [refTable].[date] = ? and [refTable].[phu_id] = ? and [refTable].[age_grou
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">0</Value>
+          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -13696,7 +13700,9 @@ where [refTable].[date] = ? and [refTable].[phu_id] = ? and [refTable].[age_grou
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13814,7 +13820,9 @@ where [refTable].[date] = ? and [refTable].[phu_id] = ? and [refTable].[age_grou
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13836,7 +13844,9 @@ where [refTable].[date] = ? and [refTable].[phu_id] = ? and [refTable].[age_grou
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -14194,7 +14204,7 @@ where [refTable].[date] = ? and [refTable].[phu_id] = ? and [refTable].[age_grou
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -14386,9 +14396,7 @@ where [refTable].[date] = ? and [refTable].[phu_id] = ? and [refTable].[age_grou
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14410,9 +14418,7 @@ where [refTable].[date] = ? and [refTable].[phu_id] = ? and [refTable].[age_grou
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14434,9 +14440,7 @@ where [refTable].[date] = ? and [refTable].[phu_id] = ? and [refTable].[age_grou
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -14593,7 +14597,9 @@ where [refTable].[date] = ? and [refTable].[phu_id] = ? and [refTable].[age_grou
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14711,7 +14717,9 @@ where [refTable].[date] = ? and [refTable].[phu_id] = ? and [refTable].[age_grou
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14733,7 +14741,9 @@ where [refTable].[date] = ? and [refTable].[phu_id] = ? and [refTable].[age_grou
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -14794,7 +14804,7 @@ where [refTable].[date] = ? and [refTable].[phu_id] = ? and [refTable].[age_grou
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -14804,7 +14814,7 @@ where [refTable].[date] = ? and [refTable].[phu_id] = ? and [refTable].[age_grou
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
