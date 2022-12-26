@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>project BI HTTT</Name>
-    <LastWriteTime>2022-12-23T01:23:09.0154257Z</LastWriteTime>
+    <LastWriteTime>2022-12-23T04:09:20.3075732Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -23,7 +23,7 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>NDS-DDS.dtsx</Name>
-      <LastWriteTime>2022-12-23T01:27:57.4222452Z</LastWriteTime>
+      <LastWriteTime>2022-12-23T13:50:03.5617986Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
