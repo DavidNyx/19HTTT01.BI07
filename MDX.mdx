@@ -1,0 +1,36 @@
+--Cau 1
+select crossjoin([NAM].[NAM].[NAM],[DIM PHU].[PHU].[PHU]) on rows,
+{[Measures].[Infected],[Measures].[Deceased],[Measures].[Recovered]} on columns
+from [DDS]
+--Cau 2
+with member severe as iif([Measures].[Infected], iif([Measures].[Infected] >= 500, 'high', 'low'), null)
+select non empty crossjoin([NAM].[NAM].[NAM]-[NAM].[NAM].[Unknown],[THANG TRONG NAM].[QUY].[QUY]
+-[THANG TRONG NAM].[QUY].[QUY].[Unknown], [DIM PHU].[PHU].[PHU]-[DIM PHU].[PHU].[PHU].[Unknown]) on rows,
+non empty{[Measures].[Infected],severe} on columns
+from [DDS]
+--Cau 3
+SELECT non empty crossjoin([NAM].[NAM].[NAM]-[NAM].[NAM].[Unknown],
+[DIM AGE GROUP].[AGE GROUP TYPE].[AGE GROUP TYPE]-[DIM AGE GROUP].[AGE GROUP TYPE].[AGE GROUP TYPE].[Unknown],
+[DIM COMPILED CASE DETAILS].[GENDER].[GENDER]-[DIM COMPILED CASE DETAILS].[GENDER].[GENDER].[Unknown]) on rows,
+{[Measures].[Deceased]} on columns
+from [DDS]
+--Cau 4
+with member severe as iif([Measures].[Infected], iif([Measures].[Infected] >= 500, 'high', 'low'), null)
+select non empty crossjoin([NAM].[NAM].[NAM]-[NAM].[NAM].[Unknown],
+[THANG TRONG NAM].[THANG].[THANG]-[THANG TRONG NAM].[THANG].[THANG].[Unknown],
+[NGAY TRONG THANG].[NGAY].[NGAY]-[NGAY TRONG THANG].[NGAY].[NGAY].[Unknown]) on rows,
+{severe,[Measures].[Infected],[Measures].[Deceased]} on columns
+from [DDS]
+--Cau 5?
+with member severe as iif([Measures].[Infected], iif([Measures].[Infected] >= 500, 'high', 'low'), null)
+select non empty crossjoin([NAM].[NAM].[NAM]-[NAM].[NAM].[Unknown],
+[DIM PHU].[PHU GROUP].[PHU GROUP]-[DIM PHU].[PHU GROUP].[PHU GROUP].[Unknown]-[DIM PHU].[PHU GROUP].[PHU GROUP].[],
+[DIM PHU].[CITY].[CITY]-[DIM PHU].[CITY].[CITY].[Unknown]) on rows,
+{severe,[Measures].[Infected],[Measures].[Deceased]} on columns
+from [DDS]
+--Cau 6
+with member severe as iif([Measures].[Infected], iif([Measures].[Infected] >= 500, 'high', 'low'), null)
+select non empty crossjoin([DIM PHU].[PHU].[PHU]-[DIM PHU].[PHU].[PHU].[Unknown],
+[DIM COMPILED CASE DETAILS].[EXPOSURE].[EXPOSURE]-[DIM COMPILED CASE DETAILS].[EXPOSURE].[EXPOSURE].[Unknown]) on rows,
+{severe,[Measures].[Infected]} on columns
+from [DDS]

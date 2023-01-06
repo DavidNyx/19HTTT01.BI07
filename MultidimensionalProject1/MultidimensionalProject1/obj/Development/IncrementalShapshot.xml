@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>MultidimensionalProject1</Database>
+    <Server>DAVIDNYX\MSSQLSERVER01</Server>
+    <ConnectionString>Data Source=DAVIDNYX\MSSQLSERVER01;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>5ZbOvoimpwgv+dZxA658CQTdvOo=06/01/2023 2:34:37 CH06/01/2023 1:50:22 CH</TimeStamp>
+        <ID>
+          <String>DDS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>yy60apiajnhqU5Qi8cDFUp5Qfbk=06/01/2023 1:51:16 CH06/01/2023 1:51:16 CH</TimeStamp>
+        <ID>
+          <String>DDS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>N6plCseaptZ1EH9zQTOUAA0OFto=06/01/2023 3:01:06 CH06/01/2023 2:51:11 CH</TimeStamp>
+        <ID>
+          <String>DIM AGE GROUP</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>p0TCWxPrHIs689I/zrgoCjA7pdY=06/01/2023 3:01:06 CH06/01/2023 2:51:11 CH</TimeStamp>
+        <ID>
+          <String>NAM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>eiGpKy9ifxT8niwcSkDYsoxqs10=06/01/2023 3:01:06 CH06/01/2023 2:51:11 CH</TimeStamp>
+        <ID>
+          <String>THANG TRONG NAM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>kWgNx3mIA619GpVoZ2cWXVVph7c=06/01/2023 3:01:06 CH06/01/2023 2:51:11 CH</TimeStamp>
+        <ID>
+          <String>DIM CASE REPORT</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>7emuNTWjwESaJiW8x4UB+mYXLSM=06/01/2023 3:01:06 CH06/01/2023 2:51:11 CH</TimeStamp>
+        <ID>
+          <String>DIM COMPILED CASE DETAILS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>coHCDykltQa9lRqA3NrD8FpuUsQ=06/01/2023 3:01:06 CH06/01/2023 2:51:11 CH</TimeStamp>
+        <ID>
+          <String>DIM PHU</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0t5Xqm99VuNRNT4oJZlGMVDISug=06/01/2023 3:01:06 CH06/01/2023 2:51:11 CH</TimeStamp>
+        <ID>
+          <String>NGAY TRONG THANG</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ViCpH9YHwJdHF2W1WqWGWJUwm7M=06/01/2023 3:01:06 CH06/01/2023 2:51:11 CHMZN9WGdXjt3/2SmBt5uiCkiEHg8=06/01/2023 2:51:11 CH06/01/2023 2:51:11 CH</TimeStamp>
+        <ID>
+          <String>DDS</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>e5DR8OYSjzwNl+5mZ3RLJqeN9NU=06/01/2023 1:44:28 CH06/01/2023 1:44:28 CH</TimeStamp>
+      <ID>
+        <String>MultidimensionalProject1</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-01-06T08:01:17.11Z</LastDeployed>
+</DeploymentSnapshot>
