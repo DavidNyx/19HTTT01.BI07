@@ -11,8 +11,8 @@
   DTS:LocaleID="1066"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="87"
-  DTS:VersionGUID="{8125BC29-8AB9-4151-8C26-023957DC2F33}">
+  DTS:VersionBuild="106"
+  DTS:VersionGUID="{A40E1B7F-6BC3-4E35-AD2F-58E1E369AC8E}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -30,7 +30,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlWzB+9Eihk6x+98pm1CGpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADoI03adedSZtckDPwCoSI8mOmKb2jwg5zXXr0V28WcfAAAAAAOgAAAAAIAACAAAACIr9HIkVifruTuwG430ioTKbDy2mzNeJ4U7jKBMgvS5CAAAAAK15eVCV3v1FQPvdqcSf5DOWck57ZbbOTFxtEB8ccAKUAAAADNFoVc9jOiLXPXB0WrpohJZVLaXuY/Mnz7XUJao7sxakvP83UpKMnxB9kM+xxCpZUuE/EEvIy7aM2VLLIEPISJ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlWzB+9Eihk6x+98pm1CGpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB2TbONVF55YK1S25JfdrmVOxuQQeffe/yOraTWGRlL4gAAAAAOgAAAAAIAACAAAABAOuGEHZN+Ljsrvg0bx8F9kRyOVW8I/F4B0lK3N6DEaiAAAAC+qUAZz5/d96iG1AvD+cGsHRfXsMR6oJtMVMGfKQWhT0AAAAC/TTX+LJUeRKRc18AujJFT2pf+vPOwLZ6Ioaxz68zTebsgbufV3pu7GNpSGo/3uHN5N0lV1k1fnalOM5v4YaH4</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -47,7 +47,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlWzB+9Eihk6x+98pm1CGpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAdPkenEwNhd6kSCVxA688oJYlHpDVcvnGzMnJoTOZvhQAAAAAOgAAAAAIAACAAAADlEyv2Mda1YSuqZezZiKSm2lwFG1MIHlVOziNeFZOa6CAAAAB0vmEq7B0IVE6kZZaPtgCBjewjIMf4Zk8Od7IIIYrxd0AAAABRDZKZ83KVNVG7LcINdiuo6RgKUUy9Gd6yAZ52Dg5w8rg7i3Yq2Iu+qZeFZbHiaoG40ZlUdle0aUAyBH9eIUaW</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlWzB+9Eihk6x+98pm1CGpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABqwdCs4R21/7r8LlipcU3DXSnd9KI0w19KAC/+Dm6UpwAAAAAOgAAAAAIAACAAAABWU9HR/BrUtylS1VVKgz8r1YT97KYiEjOW1YhRF4hwdyAAAACfLgOcZVrQy/wtehazmhQzZiGVHMVw/Kay57/R7wa0v0AAAAB7ctV6aQ9WuSPaGuvKQrhCPSv82WGjDZKdW9Qmzjq9ibLJbJRF4kjzQOYHzQdtb6EDRBFCF/+tYU22j9jWgEzx</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -82,6 +82,7 @@
       DTS:refId="Package\Data Flow Task"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{5FFE4937-46EB-4A53-BA2C-617096A5C06B}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -404,6 +405,7 @@
       DTS:refId="Package\Data Flow Task 1"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{96B00AEF-B3B8-4CA4-B843-B5EF7FA4B5C1}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1044,6 +1046,7 @@ where [refTable].[NAM] = ?</property>
       DTS:refId="Package\Data Flow Task 2"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{0AA1DF9D-2680-4285-A204-65B96745E8BB}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1816,6 +1819,7 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
       DTS:refId="Package\Data Flow Task 3"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{7676E55D-E275-49F6-B8E0-29AF9557181C}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -4034,6 +4038,7 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
       DTS:refId="Package\Data Flow Task 4"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{EB8BC1C5-8B20-42C3-8920-A32904B478FA}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -6000,6 +6005,7 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
       DTS:refId="Package\Data Flow Task 5"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{298A8366-BD19-4358-B67B-CF7A8F503FFD}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -6955,6 +6961,7 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
       DTS:refId="Package\Data Flow Task 6"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{B5D45DA3-B9F8-4561-BF88-197FFE7BB3C1}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -7297,6 +7304,7 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
       DTS:refId="Package\Data Flow Task 7"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{253A39C2-ED52-43E2-B85E-131A2A79FCAC}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -9843,6 +9851,7 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
       DTS:refId="Package\Data Flow Task 8"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{00647944-986B-485A-8B5B-EAF698BBFAF7}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -9954,13 +9963,12 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
                       externalMetadataColumnId="Package\Data Flow Task 8\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[DATE_REPORTED]"
                       lineageId="Package\Data Flow Task 8\Merge Join.Outputs[Merge Join Output].Columns[DATE_REPORTED]" />
                     <inputColumn
-                      refId="Package\Data Flow Task 8\Insert Destination.Inputs[OLE DB Destination Input].Columns[phu_id]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="255"
-                      cachedName="phu_id"
+                      refId="Package\Data Flow Task 8\Insert Destination.Inputs[OLE DB Destination Input].Columns[PHU_ID]"
+                      cachedDataType="i4"
+                      cachedName="PHU_ID"
+                      cachedSortKeyPosition="1"
                       externalMetadataColumnId="Package\Data Flow Task 8\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_ID]"
-                      lineageId="Package\Data Flow Task 8\Merge Join.Outputs[Merge Join Output].Columns[phu_id]" />
+                      lineageId="Package\Data Flow Task 8\Merge Join.Outputs[Merge Join Output].Columns[PHU_ID]" />
                     <inputColumn
                       refId="Package\Data Flow Task 8\Insert Destination.Inputs[OLE DB Destination Input].Columns[AGE_GROUP_ID]"
                       cachedDataType="i4"
@@ -10040,9 +10048,7 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
                       name="DATE_REPORTED" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task 8\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHU_ID]"
-                      codePage="1252"
-                      dataType="str"
-                      length="255"
+                      dataType="i4"
                       name="PHU_ID" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task 8\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[AGE_GROUP_ID]"
@@ -10241,6 +10247,7 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
               <outputs>
                 <output
                   refId="Package\Data Flow Task 8\Merge Join.Outputs[Merge Join Output]"
+                  isSorted="true"
                   name="Merge Join Output">
                   <outputColumns>
                     <outputColumn
@@ -10413,6 +10420,20 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
                           name="InputColumnID">#{Package\Data Flow Task 8\Merge Join.Inputs[Merge Join Right Input].Columns[phu_id]}</property>
                       </properties>
                     </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task 8\Merge Join.Outputs[Merge Join Output].Columns[PHU_ID]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task 8\Merge Join.Outputs[Merge Join Output].Columns[PHU_ID]"
+                      name="PHU_ID"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Data Flow Task 8\Merge Join.Inputs[Merge Join Left Input].Columns[PHU_ID]}</property>
+                      </properties>
+                    </outputColumn>
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -10523,13 +10544,12 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
                       externalMetadataColumnId="Package\Data Flow Task 8\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_7]"
                       lineageId="Package\Data Flow Task 8\Merge Join.Outputs[Merge Join Output].Columns[PROVINCE]" />
                     <inputColumn
-                      refId="Package\Data Flow Task 8\OLE DB Command.Inputs[OLE DB Command Input].Columns[phu_id]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="255"
-                      cachedName="phu_id"
+                      refId="Package\Data Flow Task 8\OLE DB Command.Inputs[OLE DB Command Input].Columns[PHU_ID]"
+                      cachedDataType="i4"
+                      cachedName="PHU_ID"
+                      cachedSortKeyPosition="1"
                       externalMetadataColumnId="Package\Data Flow Task 8\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_8]"
-                      lineageId="Package\Data Flow Task 8\Merge Join.Outputs[Merge Join Output].Columns[phu_id]" />
+                      lineageId="Package\Data Flow Task 8\Merge Join.Outputs[Merge Join Output].Columns[PHU_ID]" />
                     <inputColumn
                       refId="Package\Data Flow Task 8\OLE DB Command.Inputs[OLE DB Command Input].Columns[ROW_ID]"
                       cachedCodepage="1252"
@@ -10647,15 +10667,13 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
                     </externalMetadataColumn>
                     <externalMetadataColumn
                       refId="Package\Data Flow Task 8\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_8]"
-                      codePage="1252"
-                      dataType="str"
-                      length="255"
+                      dataType="i4"
                       name="Param_8">
                       <properties>
                         <property
                           dataType="System.Int32"
                           description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
-                          name="DBParamInfoFlags">65</property>
+                          name="DBParamInfoFlags">81</property>
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
@@ -11217,7 +11235,7 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dbo].[PHU]</property>
+                  name="OpenRowset">[dbo].[DIM_PHU]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -11243,7 +11261,7 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
                   dataType="System.Int32"
                   description="Specifies the mode used to access the database."
                   name="AccessMode"
-                  typeConverter="AccessMode">2</property>
+                  typeConverter="AccessMode">0</property>
                 <property
                   dataType="System.String"
                   description="The mappings between the parameters in the SQL command and variables."
@@ -11252,8 +11270,8 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow Task 8\OLE DB Source 1.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DAVIDNYX\SQLEXPRESS.NDS]"
-                  connectionManagerRefId="Package.ConnectionManagers[DAVIDNYX\SQLEXPRESS.NDS]"
+                  connectionManagerID="Package.ConnectionManagers[DAVIDNYX\SQLEXPRESS.DDS]"
+                  connectionManagerRefId="Package.ConnectionManagers[DAVIDNYX\SQLEXPRESS.DDS]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -11263,38 +11281,157 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
                   name="OLE DB Source Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[id]"
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[ID]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[id]"
-                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[id]"
-                      name="id"
+                      externalMetadataColumnId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[ID]"
+                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[ID]"
+                      name="ID"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[phu_id]"
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[PHU_ID]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[phu_id]"
+                      externalMetadataColumnId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[PHU_ID]"
                       length="255"
-                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[phu_id]"
-                      name="phu_id"
+                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[PHU_ID]"
+                      name="PHU_ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[PHU]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[PHU]"
+                      length="255"
+                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[PHU]"
+                      name="PHU"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[PHU_GROUP]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[PHU_GROUP]"
+                      length="255"
+                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[PHU_GROUP]"
+                      name="PHU_GROUP"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[CITY]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[CITY]"
+                      length="255"
+                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[CITY]"
+                      name="CITY"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[POSTALCODE]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[POSTALCODE]"
+                      length="255"
+                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[POSTALCODE]"
+                      name="POSTALCODE"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[WEBSITE]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[WEBSITE]"
+                      length="255"
+                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[WEBSITE]"
+                      name="WEBSITE"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[LATITUDE]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[LATITUDE]"
+                      length="255"
+                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[LATITUDE]"
+                      name="LATITUDE"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[LONGITUDE]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[LONGITUDE]"
+                      length="255"
+                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[LONGITUDE]"
+                      name="LONGITUDE"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[id]"
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[ID]"
                       dataType="i4"
-                      name="id" />
+                      name="ID" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[phu_id]"
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[PHU_ID]"
                       codePage="1252"
                       dataType="str"
                       length="255"
-                      name="phu_id" />
+                      name="PHU_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[PHU]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="PHU" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[PHU_GROUP]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="PHU_GROUP" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[CITY]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="CITY" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[POSTALCODE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="POSTALCODE" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[WEBSITE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="WEBSITE" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[LATITUDE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="LATITUDE" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[LONGITUDE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="LONGITUDE" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -11303,17 +11440,66 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
                   name="OLE DB Source Error Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[id]"
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[ID]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[id]"
-                      name="id" />
+                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[ID]"
+                      name="ID" />
                     <outputColumn
-                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[phu_id]"
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[PHU_ID]"
                       codePage="1252"
                       dataType="str"
                       length="255"
-                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[phu_id]"
-                      name="phu_id" />
+                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[PHU_ID]"
+                      name="PHU_ID" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[PHU]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[PHU]"
+                      name="PHU" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[PHU_GROUP]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[PHU_GROUP]"
+                      name="PHU_GROUP" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[CITY]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[CITY]"
+                      name="CITY" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[POSTALCODE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[POSTALCODE]"
+                      name="POSTALCODE" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[WEBSITE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[WEBSITE]"
+                      name="WEBSITE" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[LATITUDE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[LATITUDE]"
+                      name="LATITUDE" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[LONGITUDE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[LONGITUDE]"
+                      name="LONGITUDE" />
                     <outputColumn
                       refId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
                       dataType="i4"
@@ -11938,10 +12124,10 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
                   name="Sort Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task 8\Sort 1.Inputs[Sort Input].Columns[id]"
+                      refId="Package\Data Flow Task 8\Sort 1.Inputs[Sort Input].Columns[ID]"
                       cachedDataType="i4"
-                      cachedName="id"
-                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[id]">
+                      cachedName="ID"
+                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[ID]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -11954,12 +12140,12 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task 8\Sort 1.Inputs[Sort Input].Columns[phu_id]"
+                      refId="Package\Data Flow Task 8\Sort 1.Inputs[Sort Input].Columns[PHU_ID]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="255"
-                      cachedName="phu_id"
-                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[phu_id]">
+                      cachedName="PHU_ID"
+                      lineageId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[PHU_ID]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -11992,7 +12178,7 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[id]}</property>
+                          name="SortColumnId">#{Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[ID]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -12007,7 +12193,7 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[phu_id]}</property>
+                          name="SortColumnId">#{Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[PHU_ID]}</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -12039,24 +12225,24 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
               startId="Package\Data Flow Task 8\Slowly Changing Dimension.Outputs[New Output]" />
             <path
               refId="Package\Data Flow Task 8.Paths[OLE DB Source Output]"
-              endId="Package\Data Flow Task 8\Sort 1.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Data Flow Task 8.Paths[OLE DB Source Output1]"
               endId="Package\Data Flow Task 8\Sort.Inputs[Sort Input]"
               name="OLE DB Source Output"
               startId="Package\Data Flow Task 8\OLE DB Source.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Data Flow Task 8.Paths[Sort Output]"
-              endId="Package\Data Flow Task 8\Merge Join.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\Data Flow Task 8\Sort.Outputs[Sort Output]" />
+              refId="Package\Data Flow Task 8.Paths[OLE DB Source Output1]"
+              endId="Package\Data Flow Task 8\Sort 1.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Data Flow Task 8\OLE DB Source 1.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Data Flow Task 8.Paths[Sort Output1]"
+              refId="Package\Data Flow Task 8.Paths[Sort Output]"
               endId="Package\Data Flow Task 8\Merge Join.Inputs[Merge Join Right Input]"
               name="Sort Output"
               startId="Package\Data Flow Task 8\Sort 1.Outputs[Sort Output]" />
+            <path
+              refId="Package\Data Flow Task 8.Paths[Sort Output1]"
+              endId="Package\Data Flow Task 8\Merge Join.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\Data Flow Task 8\Sort.Outputs[Sort Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -12065,6 +12251,7 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
       DTS:refId="Package\Data Flow Task 9"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{6013ED49-45A8-4AEA-9453-F8863A7FB470}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -12093,6 +12280,13 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
                       cachedDataType="dbTimeStamp"
                       cachedName="DATE_REPORTED"
                       lineageId="Package\Data Flow Task 9\OLE DB Source.Outputs[OLE DB Source Output].Columns[DATE_REPORTED]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 9\Derived Column.Inputs[Derived Column Input].Columns[CASE_STATUS]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="255"
+                      cachedName="CASE_STATUS"
+                      lineageId="Package\Data Flow Task 9\OLE DB Source.Outputs[OLE DB Source Output].Columns[CASE_STATUS]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -12169,6 +12363,72 @@ where [refTable].[THANG] = ? and [refTable].[ID_NAM] = ?</property>
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
                           name="FriendlyExpression">YEAR(DATE_REPORTED)</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task 9\Derived Column.Outputs[Derived Column Output].Columns[Infected]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Data Flow Task 9\Derived Column.Outputs[Derived Column Output].Columns[Infected]"
+                      name="Infected"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">1</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">1</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task 9\Derived Column.Outputs[Derived Column Output].Columns[Recovered]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Data Flow Task 9\Derived Column.Outputs[Derived Column Output].Columns[Recovered]"
+                      name="Recovered"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Data Flow Task 9\OLE DB Source.Outputs[OLE DB Source Output].Columns[CASE_STATUS]} == "Recovered" ? 1 : 0</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">CASE_STATUS == "Recovered" ? 1 : 0</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task 9\Derived Column.Outputs[Derived Column Output].Columns[Deceased]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Data Flow Task 9\Derived Column.Outputs[Derived Column Output].Columns[Deceased]"
+                      name="Deceased"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Data Flow Task 9\OLE DB Source.Outputs[OLE DB Source Output].Columns[CASE_STATUS]} == "Deceased" ? 1 : 0</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">CASE_STATUS == "Deceased" ? 1 : 0</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -12804,6 +13064,24 @@ where [refTable].[case_report_id] = ?</property>
                       externalMetadataColumnId="Package\Data Flow Task 9\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ID_COMPILED_CASE_DETAILS]"
                       lineageId="Package\Data Flow Task 9\OLE DB Source.Outputs[OLE DB Source Output].Columns[ID]" />
                     <inputColumn
+                      refId="Package\Data Flow Task 9\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Infected]"
+                      cachedDataType="i4"
+                      cachedName="Infected"
+                      externalMetadataColumnId="Package\Data Flow Task 9\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[INFECTED]"
+                      lineageId="Package\Data Flow Task 9\Derived Column.Outputs[Derived Column Output].Columns[Infected]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 9\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Recovered]"
+                      cachedDataType="i4"
+                      cachedName="Recovered"
+                      externalMetadataColumnId="Package\Data Flow Task 9\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[RECOVERED]"
+                      lineageId="Package\Data Flow Task 9\Derived Column.Outputs[Derived Column Output].Columns[Recovered]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 9\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Deceased]"
+                      cachedDataType="i4"
+                      cachedName="Deceased"
+                      externalMetadataColumnId="Package\Data Flow Task 9\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DECEASED]"
+                      lineageId="Package\Data Flow Task 9\Derived Column.Outputs[Derived Column Output].Columns[Deceased]" />
+                    <inputColumn
                       refId="Package\Data Flow Task 9\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PHU_ID]"
                       cachedDataType="i4"
                       cachedName="PHU_ID"
@@ -12821,10 +13099,6 @@ where [refTable].[case_report_id] = ?</property>
                       dataType="i4"
                       name="ID_NGAY" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task 9\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ID_PHU]"
-                      dataType="i4"
-                      name="ID_PHU" />
-                    <externalMetadataColumn
                       refId="Package\Data Flow Task 9\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ID_AGE_GROUP]"
                       dataType="i4"
                       name="ID_AGE_GROUP" />
@@ -12836,6 +13110,22 @@ where [refTable].[case_report_id] = ?</property>
                       refId="Package\Data Flow Task 9\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ID_COMPILED_CASE_DETAILS]"
                       dataType="i4"
                       name="ID_COMPILED_CASE_DETAILS" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 9\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[INFECTED]"
+                      dataType="i4"
+                      name="INFECTED" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 9\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[RECOVERED]"
+                      dataType="i4"
+                      name="RECOVERED" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 9\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DECEASED]"
+                      dataType="i4"
+                      name="DECEASED" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 9\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ID_PHU]"
+                      dataType="i4"
+                      name="ID_PHU" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -13079,9 +13369,7 @@ where [refTable].[case_report_id] = ?</property>
                       name="DATE_REPORTED" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task 9\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[PHU_ID]"
-                      codePage="1252"
-                      dataType="str"
-                      length="255"
+                      dataType="i4"
                       name="PHU_ID" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task 9\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[AGE_GROUP_ID]"
@@ -13161,9 +13449,7 @@ where [refTable].[case_report_id] = ?</property>
                       name="DATE_REPORTED" />
                     <outputColumn
                       refId="Package\Data Flow Task 9\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[PHU_ID]"
-                      codePage="1252"
-                      dataType="str"
-                      length="255"
+                      dataType="i4"
                       lineageId="Package\Data Flow Task 9\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[PHU_ID]"
                       name="PHU_ID" />
                     <outputColumn
@@ -13378,6 +13664,10 @@ where [refTable].[case_report_id] = ?</property>
           TopLeft="423.333316511579,197.933334772852" />
         <NodeLayout
           Size="159.2,41.6"
+          Id="Package\Data Flow Task 8"
+          TopLeft="421.666649911139,120.800000826518" />
+        <NodeLayout
+          Size="159.2,41.6"
           Id="Package\Data Flow Task 9"
           TopLeft="416.66665010982,52.3333336157271" />
         <EdgeLayout
@@ -13534,24 +13824,20 @@ where [refTable].[case_report_id] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="159.2,41.6"
-          Id="Package\Data Flow Task 8"
-          TopLeft="421.666649911139,120.800000826518" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 7]"
           TopLeft="502.099983211359,197.933334772852">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,-35.5333339463342"
+              EndConnector="0,-35.533333946334"
               Start="0,0"
-              End="0,-28.0333339463342">
+              End="0,-28.033333946334">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-28.0333339463342" />
+                    End="0,-28.033333946334" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13566,14 +13852,14 @@ where [refTable].[case_report_id] = ?</property>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,-26.8666672107906"
+              EndConnector="0,-26.8666672107909"
               Start="0,0"
-              End="0,-19.3666672107906">
+              End="0,-19.3666672107909">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-19.3666672107906" />
+                    End="0,-19.3666672107909" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13589,7 +13875,7 @@ where [refTable].[case_report_id] = ?</property>
     design-time-name="Package\Data Flow Task">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="97.6,41.6"
           Id="Package\Data Flow Task\Sort"
@@ -13621,7 +13907,9 @@ where [refTable].[case_report_id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13643,7 +13931,9 @@ where [refTable].[case_report_id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -13719,7 +14009,9 @@ where [refTable].[case_report_id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13741,7 +14033,9 @@ where [refTable].[case_report_id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13763,7 +14057,9 @@ where [refTable].[case_report_id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13799,7 +14095,7 @@ where [refTable].[case_report_id] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -13809,7 +14105,7 @@ where [refTable].[case_report_id] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -13881,7 +14177,9 @@ where [refTable].[case_report_id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13903,7 +14201,9 @@ where [refTable].[case_report_id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13963,7 +14263,7 @@ where [refTable].[case_report_id] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -13973,7 +14273,7 @@ where [refTable].[case_report_id] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -13999,7 +14299,7 @@ where [refTable].[case_report_id] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -14009,7 +14309,7 @@ where [refTable].[case_report_id] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -14034,9 +14334,21 @@ where [refTable].[case_report_id] = ?</property>
           Id="Package\Data Flow Task 3\Sort"
           TopLeft="794.7,107.1" />
         <NodeLayout
+          Size="176,41.6"
+          Id="Package\Data Flow Task 3\OLE DB Command 3"
+          TopLeft="1155.5,411.9" />
+        <NodeLayout
+          Size="168,41.6"
+          Id="Package\Data Flow Task 3\Insert Destination 1"
+          TopLeft="689.5,411.9" />
+        <NodeLayout
           Size="106.4,41.6"
           Id="Package\Data Flow Task 3\Sort 1"
           TopLeft="953.3,107.1" />
+        <NodeLayout
+          Size="176,41.6"
+          Id="Package\Data Flow Task 3\OLE DB Command 2"
+          TopLeft="918.5,411.9" />
         <NodeLayout
           Size="208,41.6"
           Id="Package\Data Flow Task 3\Slowly Changing Dimension"
@@ -14084,7 +14396,9 @@ where [refTable].[case_report_id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14118,7 +14432,9 @@ where [refTable].[case_report_id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14140,7 +14456,9 @@ where [refTable].[case_report_id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14174,35 +14492,11 @@ where [refTable].[case_report_id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task 3.Paths[Merge Join Output]"
-          TopLeft="1006.5,250.3">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="168,41.6"
-          Id="Package\Data Flow Task 3\Insert Destination 1"
-          TopLeft="689.5,411.9" />
         <EdgeLayout
           Id="Package\Data Flow Task 3.Paths[New Output]"
           TopLeft="956.5,351.9">
@@ -14239,10 +14533,30 @@ where [refTable].[case_report_id] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="176,41.6"
-          Id="Package\Data Flow Task 3\OLE DB Command 2"
-          TopLeft="918.5,411.9" />
+        <EdgeLayout
+          Id="Package\Data Flow Task 3.Paths[Merge Join Output]"
+          TopLeft="1006.5,250.3">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task 3.Paths[Inferred Member Updates Output]"
           TopLeft="1006.5,351.9">
@@ -14267,10 +14581,6 @@ where [refTable].[case_report_id] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="176,41.6"
-          Id="Package\Data Flow Task 3\OLE DB Command 3"
-          TopLeft="1155.5,411.9" />
         <EdgeLayout
           Id="Package\Data Flow Task 3.Paths[Changing Attribute Updates Output]"
           TopLeft="1056.5,351.9">
@@ -14488,7 +14798,9 @@ where [refTable].[case_report_id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14522,7 +14834,9 @@ where [refTable].[case_report_id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14544,7 +14858,9 @@ where [refTable].[case_report_id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14578,7 +14894,9 @@ where [refTable].[case_report_id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14636,7 +14954,9 @@ where [refTable].[case_report_id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -15084,7 +15404,7 @@ where [refTable].[case_report_id] = ?</property>
     design-time-name="Package\Data Flow Task 6">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="171.2,41.6"
           Id="Package\Data Flow Task 6\OLE DB Destination"
@@ -15112,7 +15432,9 @@ where [refTable].[case_report_id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -15208,7 +15530,9 @@ where [refTable].[case_report_id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -15254,7 +15578,9 @@ where [refTable].[case_report_id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -15324,7 +15650,9 @@ where [refTable].[case_report_id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -15358,7 +15686,9 @@ where [refTable].[case_report_id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -15392,7 +15722,9 @@ where [refTable].[case_report_id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -15414,7 +15746,9 @@ where [refTable].[case_report_id] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -15600,250 +15934,10 @@ where [refTable].[case_report_id] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
-    design-time-name="Package\Data Flow Task 9">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="152,41.6"
-          Id="Package\Data Flow Task 9\OLE DB Source"
-          TopLeft="181,15" />
-        <NodeLayout
-          Size="112.8,41.6"
-          Id="Package\Data Flow Task 9\Lookup"
-          TopLeft="412,104" />
-        <NodeLayout
-          Size="152.8,41.6"
-          Id="Package\Data Flow Task 9\Derived Column"
-          TopLeft="180.166659745905,104.066667644713" />
-        <EdgeLayout
-          Id="Package\Data Flow Task 9.Paths[OLE DB Source Output]"
-          TopLeft="256.783329872953,56.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,47.466667644713"
-              Start="0,0"
-              End="0,39.966667644713">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,39.966667644713" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\Data Flow Task 9\OLE DB Destination"
-          TopLeft="383.333318101036,296.400002355576" />
-        <NodeLayout
-          Size="120.8,41.6"
-          Id="Package\Data Flow Task 9\Lookup 2"
-          TopLeft="174.166659745906,203.666668285264" />
-        <NodeLayout
-          Size="120.8,41.6"
-          Id="Package\Data Flow Task 9\Lookup 3"
-          TopLeft="179.166659547223,298.133335702684" />
-        <EdgeLayout
-          Id="Package\Data Flow Task 9.Paths[Lookup Match Output]"
-          TopLeft="237.066659646564,245.266668285264">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,52.8666674174203"
-              Start="0,0"
-              End="0,45.3666674174203">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,45.3666674174203" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,16.8786462087102,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task 9.Paths[Derived Column Output]"
-          TopLeft="332.966659745905,124.833333822357">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="79.033340254095,0"
-              Start="0,0"
-              End="71.533340254095,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="71.533340254095,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task 9.Paths[Lookup Match Output1]"
-          TopLeft="299.966659547223,318.06666902913">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="83.3666585538126,0"
-              Start="0,0"
-              End="75.8666585538126,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="75.8666585538126,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-10.2580574418437,5,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task 9.Paths[Lookup Match Output2]"
-          TopLeft="468.4,145.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-233.833340254094,58.066668285264"
-              Start="0,0"
-              End="-233.833340254094,50.566668285264">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.033334142632" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.033334142632"
-                    Point2="0,29.033334142632"
-                    Point3="-4,29.033334142632" />
-                  <mssgle:LineSegment
-                    End="-229.833340254094,29.033334142632" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-229.833340254094,29.033334142632"
-                    Point2="-233.833340254094,29.033334142632"
-                    Point3="-233.833340254094,33.033334142632" />
-                  <mssgle:LineSegment
-                    End="-233.833340254094,50.566668285264" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-165.108056845797,34.033334142632,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task 9\OLE DB Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task 9\Lookup">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task 9\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task 9\Lookup 3">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
     design-time-name="Package\Data Flow Task 8">
     <LayoutInfo>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="208,41.6"
-          Id="Package\Data Flow Task 8\Slowly Changing Dimension"
-          TopLeft="205.1,310.3" />
-        <NodeLayout
-          Size="106.4,41.6"
-          Id="Package\Data Flow Task 8\Sort 1"
-          TopLeft="255.9,107.1" />
         <NodeLayout
           Size="152,41.6"
           Id="Package\Data Flow Task 8\OLE DB Source"
@@ -15852,72 +15946,24 @@ where [refTable].[case_report_id] = ?</property>
           Size="160.8,41.6"
           Id="Package\Data Flow Task 8\OLE DB Source 1"
           TopLeft="228.7,5.49999999999984" />
-        <EdgeLayout
-          Id="Package\Data Flow Task 8.Paths[OLE DB Source Output]"
-          TopLeft="309.1,47.0999999999998">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
-              Start="0,0"
-              End="0,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+        <NodeLayout
+          Size="106.4,41.6"
+          Id="Package\Data Flow Task 8\Sort 1"
+          TopLeft="255.9,107.1" />
         <NodeLayout
           Size="97.6,41.6"
           Id="Package\Data Flow Task 8\Sort"
           TopLeft="97.3,107.1" />
-        <EdgeLayout
-          Id="Package\Data Flow Task 8.Paths[OLE DB Source Output1]"
-          TopLeft="92.1,47.0999999999998">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="54,59.9999999999999"
-              Start="0,0"
-              End="54,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="4,30" />
-                  <mssgle:LineSegment
-                    End="50,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="50,30"
-                    Point2="54,30"
-                    Point3="54,34" />
-                  <mssgle:LineSegment
-                    End="54,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+        <NodeLayout
+          Size="208,41.6"
+          Id="Package\Data Flow Task 8\Slowly Changing Dimension"
+          TopLeft="205.1,310.3" />
         <NodeLayout
           Size="129.6,41.6"
           Id="Package\Data Flow Task 8\Merge Join"
           TopLeft="244.3,208.7" />
         <EdgeLayout
-          Id="Package\Data Flow Task 8.Paths[Sort Output]"
+          Id="Package\Data Flow Task 8.Paths[Sort Output1]"
           TopLeft="146.1,148.7">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -15951,7 +15997,7 @@ where [refTable].[case_report_id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task 8.Paths[Sort Output1]"
+          Id="Package\Data Flow Task 8.Paths[Sort Output]"
           TopLeft="309.1,148.7">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -15976,6 +16022,62 @@ where [refTable].[case_report_id] = ?</property>
                     Point3="20.2666666666667,39.560975609756" />
                   <mssgle:LineSegment
                     End="20.2666666666667,52.4999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task 8.Paths[OLE DB Source Output1]"
+          TopLeft="309.1,47.0999999999998">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,59.9999999999999"
+              Start="0,0"
+              End="0,52.4999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.4999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task 8.Paths[OLE DB Source Output]"
+          TopLeft="92.1,47.0999999999998">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="54,59.9999999999999"
+              Start="0,0"
+              End="54,52.4999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="4,30" />
+                  <mssgle:LineSegment
+                    End="50,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="50,30"
+                    Point2="54,30"
+                    Point3="54,34" />
+                  <mssgle:LineSegment
+                    End="54,52.4999999999999" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -16118,6 +16220,19 @@ where [refTable].[case_report_id] = ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task 8\OLE DB Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Data Flow Task 8\Slowly Changing Dimension">
     <Properties>
       <Property>
@@ -16183,7 +16298,7 @@ where [refTable].[case_report_id] = ?</property>
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Merge Join.Outputs[Merge Join Output].Columns[phu_id]&lt;/IdentificationString&gt;
+      &lt;IdentificationString&gt;Merge Join.Outputs[Merge Join Output].Columns[PHU_ID]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;PHU_ID&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
@@ -16211,6 +16326,8 @@ where [refTable].[case_report_id] = ?</property>
   &lt;UseStartEndDate&gt;false&lt;/UseStartEndDate&gt;
   &lt;CurrentIndicatorColumn /&gt;
   &lt;InferredIndicatorColumn /&gt;
+  &lt;ValueCurrent /&gt;
+  &lt;ValueExpired /&gt;
   &lt;StartDateColumn /&gt;
   &lt;EndDateColumn /&gt;
   &lt;DateVariable /&gt;
@@ -16219,8 +16336,227 @@ where [refTable].[case_report_id] = ?</property>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Data Flow Task 9">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="120.8,41.6"
+          Id="Package\Data Flow Task 9\Lookup 3"
+          TopLeft="179.166659547223,298.133335702684" />
+        <NodeLayout
+          Size="112.8,41.6"
+          Id="Package\Data Flow Task 9\Lookup"
+          TopLeft="412,104" />
+        <NodeLayout
+          Size="120.8,41.6"
+          Id="Package\Data Flow Task 9\Lookup 2"
+          TopLeft="174.166659745906,203.666668285264" />
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\Data Flow Task 9\OLE DB Destination"
+          TopLeft="383.333318101036,296.400002355576" />
+        <NodeLayout
+          Size="152,41.6"
+          Id="Package\Data Flow Task 9\OLE DB Source"
+          TopLeft="181,15" />
+        <NodeLayout
+          Size="152.8,41.6"
+          Id="Package\Data Flow Task 9\Derived Column"
+          TopLeft="180.166659745905,104.066667644713" />
+        <EdgeLayout
+          Id="Package\Data Flow Task 9.Paths[OLE DB Source Output]"
+          TopLeft="256.783329872953,56.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,47.466667644713"
+              Start="0,0"
+              End="0,39.966667644713">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,39.966667644713" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task 9.Paths[Lookup Match Output2]"
+          TopLeft="468.4,145.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-233.833340254094,58.066668285264"
+              Start="0,0"
+              End="-233.833340254094,50.566668285264">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.033334142632" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.033334142632"
+                    Point2="0,29.033334142632"
+                    Point3="-4,29.033334142632" />
+                  <mssgle:LineSegment
+                    End="-229.833340254094,29.033334142632" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-229.833340254094,29.033334142632"
+                    Point2="-233.833340254094,29.033334142632"
+                    Point3="-233.833340254094,33.033334142632" />
+                  <mssgle:LineSegment
+                    End="-233.833340254094,50.566668285264" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-165.108056845797,34.033334142632,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task 9.Paths[Lookup Match Output1]"
+          TopLeft="299.966659547223,318.06666902913">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="83.3666585538126,0"
+              Start="0,0"
+              End="75.8666585538126,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="75.8666585538126,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-10.2580574418437,5,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task 9.Paths[Lookup Match Output]"
+          TopLeft="237.066659646564,245.266668285264">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,52.8666674174203"
+              Start="0,0"
+              End="0,45.3666674174203">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,45.3666674174203" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,16.8786462087102,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task 9.Paths[Derived Column Output]"
+          TopLeft="332.966659745905,124.833333822357">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="79.033340254095,0"
+              Start="0,0"
+              End="71.533340254095,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="71.533340254095,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task 8\OLE DB Source">
+    design-time-name="Package\Data Flow Task 9\Lookup 3">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task 9\Lookup">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task 9\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task 9\OLE DB Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
